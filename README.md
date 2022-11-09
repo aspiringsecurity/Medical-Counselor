@@ -3,6 +3,8 @@ Medical Counseling, preventive treatment and remediation portal using IPFS, NFT.
 
 Our decentralized chat application enables medical counselling in a privacy preserved chat like interface powered by IPFS using NFT.storage (please visit  https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG )
 
+Pitch Deck: https://drive.google.com/drive/u/3/folders/19z-8VC09WmhdMM5XsrCFwYgkhwbSfXKt
+
 Features:
 
 Data Transparency : Availability of patient’s medical counseling records across different stakeholder through secure Ethereum blockchain network. The platform utilizes Ethereum blockchain, IPFS via NFT.Storage, Nucypher i.e. patients and organizations who place their data on the exchange will be able to control which consortium entities have permission to access information. Please visit https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG.
