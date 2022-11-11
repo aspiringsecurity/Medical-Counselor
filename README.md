@@ -5,8 +5,6 @@ Our decentralized chat application enables medical counselling in a privacy pres
 
 Pitch Deck: https://drive.google.com/drive/u/3/folders/19z-8VC09WmhdMM5XsrCFwYgkhwbSfXKt
 
-Moralis Dapp URL: https://3gtivnurtulj.usemoralis.com:2053/server (to be deployed)
-
 Features:
 
 Data Transparency : Availability of patient’s medical counseling records across different stakeholder through secure Ethereum blockchain network. The platform utilizes Ethereum blockchain, IPFS via NFT.Storage, Nucypher i.e. patients and organizations who place their data on the exchange will be able to control which consortium entities have permission to access information. Please visit https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG.
@@ -17,4 +15,6 @@ Data Analytics : With the help of computer aided detection and machine learning 
 
 A greater and more seamless flow of information within a digital health care infrastructure, created by electronic health records (EHRs), encompasses and leverages digital progress and can transform the way care is delivered and compensated. EHRs helps in improved care coordination. EHRs helps in making health care ecosystem proactive, accessible and authentic. EHRs with the help of computer aided detection will help in early prediction of diseases.
 
+
+Moralis deployment URL: https://3gtivnurtulj.usemoralis.com:2053/server (to be deployed)
 
