@@ -3,7 +3,11 @@ Medical Counseling, preventive treatment and remediation portal using IPFS, NFT.
 
 Our decentralized chat application enables medical counselling in a privacy preserved chat like interface powered by IPFS using NFT.storage (please visit  https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG )
 
+Website: https://sites.google.com/view/electronichealthrecords/
+
 Pitch Deck: https://drive.google.com/drive/u/3/folders/19z-8VC09WmhdMM5XsrCFwYgkhwbSfXKt
+
+
 
 Features:
 
