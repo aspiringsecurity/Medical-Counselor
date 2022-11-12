@@ -3,7 +3,11 @@ Medical Counseling, preventive treatment and remediation portal using IPFS, NFT.
 
 Our decentralized chat application enables medical counselling in a privacy preserved chat like interface powered by IPFS using NFT.storage (please visit  https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG )
 
+Website: https://sites.google.com/view/electronichealthrecords/
+
 Pitch Deck: https://drive.google.com/drive/u/3/folders/19z-8VC09WmhdMM5XsrCFwYgkhwbSfXKt
+
+
 
 Features:
 
@@ -15,4 +19,6 @@ Data Analytics : With the help of computer aided detection and machine learning 
 
 A greater and more seamless flow of information within a digital health care infrastructure, created by electronic health records (EHRs), encompasses and leverages digital progress and can transform the way care is delivered and compensated. EHRs helps in improved care coordination. EHRs helps in making health care ecosystem proactive, accessible and authentic. EHRs with the help of computer aided detection will help in early prediction of diseases.
 
+
+Moralis deployment URL: https://3gtivnurtulj.usemoralis.com:2053/server (to be deployed)
 
