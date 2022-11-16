@@ -22,3 +22,17 @@ A greater and more seamless flow of information within a digital health care inf
 
 Moralis deployment URL: https://3gtivnurtulj.usemoralis.com:2053/server (to be deployed)
 
+1. Covalent End Point: Covalent-NFT-Dashboard enables us to analyze, observe all NFTs from wallet address in different networks. Please visit https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Covalent-NFT-Dashboard
+
+2.  Axelar, Polygon, Fantom: Axelar for communication between Polygon blockchain and Fantom destination chain. Please visit 
+
+a. Cross chain dapp development using https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Axelar-Fantom-destination-chain/axelar-Medical-Counselor . We are extending the starter kit to develop cross chain dapps using Axelar.
+
+b. Cross chain lending platform: We can supply collateral and borrow tokens from a satellite chain to a fork of Ethereum's mainnet using existing Compound Protocol. Please visit https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Axelar-Fantom-destination-chain/collateral-cross-chain-lending
+
+c. Government organizations can send aUSDC from Polygon source-chain to Fantom destination-chain and distribute it equally among all accounts specified for subsidy or reimbursement using call contract with token. Please visit https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Axelar-Fantom-destination-chain/govt-policy-reimburse-call-contract-with-token
+
+
+3. Binance: Binance smart contract implementation onn light client at https://github.com/aspiringsecurity/Medical-Counselor/tree/main/BSC-Smart-Contract-Implementation and Binance audit smart contract implementation for Third Party administrators (TPAs) at https://github.com/aspiringsecurity/Medical-Counselor/tree/main/BSC-Smart-Contract-Implementation/Audit
+
+
