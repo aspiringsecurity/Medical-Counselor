@@ -33,6 +33,6 @@ b. Cross chain lending platform: We can supply collateral and borrow tokens from
 c. Government organizations can send aUSDC from Polygon source-chain to Fantom destination-chain and distribute it equally among all accounts specified for subsidy or reimbursement using call contract with token. Please visit https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Axelar-Fantom-destination-chain/govt-policy-reimburse-call-contract-with-token
 
 
-3. Binance: Binance smart contract implementation onn light client at https://github.com/aspiringsecurity/Medical-Counselor/tree/main/BSC-Smart-Contract-Implementation and Binance audit smart contract implementation for Third Party administrators (TPAs) at https://github.com/aspiringsecurity/Medical-Counselor/tree/main/BSC-Smart-Contract-Implementation/Audit
+
 
 
