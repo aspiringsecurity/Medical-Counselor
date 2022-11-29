@@ -1,6 +1,8 @@
-# Ocean Storm by InsureBlox
+Chainlink: We are utilizing Chainlink VRF as follows:
 
-Ocean Storm is a parametric insurance solution ☂&nbsp;&nbsp;for ships 🚢 &nbsp;&nbsp;going through rough seas 🌊 &nbsp;&nbsp;based on Blockchain 🚀&nbsp;&nbsp;i.e. hazzle-free, automatic pay-outs in case of adverse weather events.
+Medical Counselling Bill Generation: We are utilizing Chainlink Mix to work with Chainlink smart contracts. The bill script will deploy a smart contract to goerli and get a Random number via Chainlink VRF, which can used to identify a unique transaction/order number for the medical consulting bill.
+
+Parametric Insurance Solution for patients with special needs. We are utilizing an existing example at chainlink github repo to develop an insurance solution for patients. Link: https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Audit-Module
 
 ### Get started
 
