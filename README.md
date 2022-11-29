@@ -32,7 +32,11 @@ b. Cross chain lending platform: We can supply collateral and borrow tokens from
 
 c. Government organizations can send aUSDC from Polygon source-chain to Fantom destination-chain and distribute it equally among all accounts specified for subsidy or reimbursement using call contract with token. Please visit https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Axelar-Fantom-destination-chain/govt-policy-reimburse-call-contract-with-token
 
-3. Chainlink: https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Audit-Module
+3. Chainlink: We are utilizing Chainlink VRF as follows:
+
+Medical Counselling Bill Generation: We are utilizing Chainlink Mix to work with Chainlink smart contracts. The bill script will deploy a smart contract to goerli and get a Random number via Chainlink VRF, which can used to identify a unique transaction/order number for the medical consulting bill.
+
+Parametric Insurance Solution for patients with special needs. We are utilizing an existing example at chainlink github repo to develop an insurance solution for patients. Link: https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Audit-Module
 
 
 
