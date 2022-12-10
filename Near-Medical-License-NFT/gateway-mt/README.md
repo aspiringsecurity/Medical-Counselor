@@ -1,3 +1,10 @@
+We have developed the decentralized twitter application using Ethereum Blockchain powered by IPFS/Filecoin, Embark, node.js framework, Storj, Oort, nvm, javascript frameworks. We are using HTML5 technologies and JavaScript framework for developing the frontend of the application.
+
+Oort blockchain services: https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Near-Medical-License-NFT/Oort
+
+Storj decentralized storage: https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Near-Medical-License-NFT/gateway-mt
+
+
 # Storj Edge Services
 
 [![Go Report Card](https://goreportcard.com/badge/storj.io/gateway-mt)](https://goreportcard.com/report/storj.io/gateway-mt)
