@@ -1,3 +1,10 @@
+We have developed the decentralized twitter application using Ethereum Blockchain powered by IPFS/Filecoin, Embark, node.js framework, Storj, Oort, nvm, javascript frameworks. We are using HTML5 technologies and JavaScript framework for developing the frontend of the application.
+
+Oort blockchain services: https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Near-Medical-License-NFT/Oort
+
+Storj decentralized storage: https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Near-Medical-License-NFT/gateway-mt
+
+
 # Oort
 
 This repository contains scripts and instructions for reproducing the experiments in our OSDI '21 paper "[Oort: Efficient Federated Learning via Guided Participant Selection](https://www.usenix.org/conference/osdi21/presentation/lai)".
