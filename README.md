@@ -38,6 +38,5 @@ Medical Counselling Bill Generation: We are utilizing Chainlink Mix to work with
 
 Parametric Insurance Solution for patients with special needs. We are utilizing an existing example at chainlink github repo to develop an insurance solution for patients. Link: https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Audit-Module
 
-
-
+4. Multi-Chain: MultiChain Webapp integration with SocialCalc for analysis, tabulation, graphing, charting and visualization.
 
