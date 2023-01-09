@@ -1,5 +1,5 @@
 # Medical-Counselor
-Medical Counseling, preventive treatment and remediation portal using IPFS, NFT.Storage, Embark and Near Protocol. We provide secure data storage & transparency of medical counseling report data using decentralized data storage powered by IPFS, Orthanc PACS (picture archiving and communication system) using NFT.storage and Chainlink VRF and Near Protocol. Our service aims at providing secure data storage, transparent data movement and data authenticity.
+Medical Counseling, preventive treatment and remediation portal using IPFS, NFT.Storage, Embark, XDC and Near Protocol. We provide secure data storage & transparency of medical counseling report data using decentralized data storage powered by IPFS, Orthanc PACS (picture archiving and communication system) using NFT.storage and Chainlink VRF, XDC and Near Protocol. Our service aims at providing secure data storage, transparent data movement and data authenticity.
 
 Our decentralized chat application enables medical counselling in a privacy preserved chat like interface powered by IPFS using NFT.storage (please visit  https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG )
 
@@ -11,7 +11,7 @@ Pitch Deck: https://drive.google.com/drive/u/3/folders/19z-8VC09WmhdMM5XsrCFwYgk
 
 Features:
 
-Data Transparency : Availability of patient’s medical counseling records across different stakeholder through secure Ethereum blockchain network. The platform utilizes Ethereum blockchain, IPFS via NFT.Storage, Nucypher i.e. patients and organizations who place their data on the exchange will be able to control which consortium entities have permission to access information. Please visit https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG.
+Data Transparency : Availability of patient’s medical counseling records across different stakeholder through secure Ethereum and XDC blockchain network. The platform utilizes Ethereum and XDC blockchain, IPFS via NFT.Storage, Nucypher i.e. patients and organizations who place their data on the exchange will be able to control which consortium entities have permission to access information. Please visit https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG.
 
 Data Uniformity : Data is processed to make it uniform and stored in PACS (Picture Archiving Communication System) so that it can be utilized by different stakeholders on verified request. Also records are encrypted to avoid any tampering of the data over course of time.
 
