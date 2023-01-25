@@ -21,7 +21,7 @@ A greater and more seamless flow of information within a digital health care inf
 
 We are developing a technical solution using Filecoin/IPFS blockchain developer library along with Chainlink automation and XDC blockchain network, open source spreadsheet engine to enable secure data storage, transparent data movement and data authenticity and borrowing XDC funds for drug design and development using collaterals on XDC network.
 
-XDC blockchain network: Borrowing XDC funds using collaterals for medical counseling and preventive treatment. Please visit: https://github.com/aspiringsecurity/Medical-Counselor/tree/main/XDC-borrow-funds
+XDC blockchain network: We are using XDC blockchain network to enable borrowing of XDC funds using collaterals for medical counseling and preventive treatment by patients with weaker economic conditions. Please visit: https://github.com/aspiringsecurity/Medical-Counselor/tree/main/XDC-borrow-funds
 
 
 Moralis deployment URL: https://3gtivnurtulj.usemoralis.com:2053/server (to be deployed)
