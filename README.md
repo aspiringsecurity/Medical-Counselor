@@ -1,5 +1,5 @@
 # Medical-Counselor
-Medical Counseling, preventive treatment and remediation portal using IPFS, NFT.Storage, Embark, XDC and Near Protocol. We provide secure data storage & transparency of medical counseling report data using decentralized data storage powered by IPFS, Orthanc PACS (picture archiving and communication system) using NFT.storage and Chainlink VRF, XDC and Near Protocol. Our service aims at providing secure data storage, transparent data movement and data authenticity.
+Medical Counseling, preventive treatment and remediation portal using IPFS, NFT.Storage, Embark, XDC, Chainlink and Near Protocol. We provide secure data storage & transparency of medical counseling report data using decentralized data storage powered by IPFS, Orthanc PACS (picture archiving and communication system) using NFT.storage and Chainlink VRF, XDC and Near Protocol. Our service aims at providing secure data storage, transparent data movement and data authenticity.
 
 Our decentralized chat application enables medical counselling in a privacy preserved chat like interface powered by IPFS using NFT.storage (please visit  https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG )
 
@@ -21,12 +21,21 @@ A greater and more seamless flow of information within a digital health care inf
 
 We are developing a technical solution using Filecoin/IPFS blockchain developer library along with Chainlink automation and XDC blockchain network, open source spreadsheet engine to enable secure data storage, transparent data movement and data authenticity and borrowing XDC funds for drug design and development using collaterals on XDC network.
 
-XDC blockchain network: We are using XDC blockchain network to enable borrowing of XDC funds using collaterals for medical counseling and preventive treatment by patients with weaker economic conditions. Please visit: https://github.com/aspiringsecurity/Medical-Counselor/tree/main/XDC-borrow-funds
+
+# BlockChain Eco-system and Tools
+
+- XDC blockchain network: We are using XDC blockchain network to enable borrowing of XDC funds using collaterals for medical counseling and preventive treatment by patients with weaker economic conditions. Please visit: https://github.com/aspiringsecurity/Medical-Counselor/tree/main/XDC-borrow-funds
 
 
-Moralis deployment URL: https://3gtivnurtulj.usemoralis.com:2053/server (to be deployed)
+- Chainlink: We are utilizing Chainlink VRF as follows:
 
-1. Covalent End Point: Covalent-NFT-Dashboard enables us to analyze, observe all NFTs from wallet address in different networks. Please visit https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Covalent-NFT-Dashboard
+Medical Counselling Bill Generation: We are utilizing Chainlink Mix to work with Chainlink smart contracts. The bill script will deploy a smart contract to goerli and get a Random number via Chainlink VRF, which can used to identify a unique transaction/order number for the medical consulting bill.
+
+Parametric Insurance Solution for patients with special needs. We are utilizing an existing example at chainlink github repo to develop an insurance solution for patients. Link: https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Audit-Module
+
+
+- Covalent End Point: Covalent-NFT-Dashboard enables us to analyze, observe all NFTs from wallet address in different networks. Please visit https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Covalent-NFT-Dashboard
+
 
 2.  Axelar, Polygon, Fantom: Axelar for communication between Polygon blockchain and Fantom destination chain. Please visit 
 
@@ -36,11 +45,5 @@ b. Cross chain lending platform: We can supply collateral and borrow tokens from
 
 c. Government organizations can send aUSDC from Polygon source-chain to Fantom destination-chain and distribute it equally among all accounts specified for subsidy or reimbursement using call contract with token. Please visit https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Axelar-Fantom-destination-chain/govt-policy-reimburse-call-contract-with-token
 
-3. Chainlink: We are utilizing Chainlink VRF as follows:
-
-Medical Counselling Bill Generation: We are utilizing Chainlink Mix to work with Chainlink smart contracts. The bill script will deploy a smart contract to goerli and get a Random number via Chainlink VRF, which can used to identify a unique transaction/order number for the medical consulting bill.
-
-Parametric Insurance Solution for patients with special needs. We are utilizing an existing example at chainlink github repo to develop an insurance solution for patients. Link: https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Audit-Module
-
-4. Multi-Chain: MultiChain Webapp integration with SocialCalc for analysis, tabulation, graphing, charting and visualization.
+3. Multi-Chain: MultiChain Webapp integration with SocialCalc for analysis, tabulation, graphing, charting and visualization.
 
