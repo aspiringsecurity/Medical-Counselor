@@ -10,7 +10,7 @@ Pitch Deck: https://drive.google.com/drive/u/3/folders/19z-8VC09WmhdMM5XsrCFwYgk
 
 Features:
 
-Data Transparency : Availability of patient’s medical counseling records across different stakeholder through secure Ethereum and XDC blockchain network. The platform utilizes Ethereum and XDC blockchain, IPFS via NFT.Storage, Nucypher i.e. patients and organizations who place their data on the exchange will be able to control which consortium entities have permission to access information. Please visit https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG.
+Data Transparency : Availability of patient’s medical counseling records across different stakeholder through secure Ethereum, Polkadot and XDC blockchain network. The platform utilizes Ethereum and XDC blockchain, IPFS via NFT.Storage, Nucypher i.e. patients and organizations who place their data on the exchange will be able to control which consortium entities have permission to access information. Please visit https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG.
 
 Data Uniformity : Data is processed to make it uniform and stored in PACS (Picture Archiving Communication System) so that it can be utilized by different stakeholders on verified request. Also records are encrypted to avoid any tampering of the data over course of time.
 
@@ -25,9 +25,11 @@ We are developing a technical solution using Filecoin/IPFS blockchain developer 
 
 - XDC blockchain network: We are using XDC blockchain network to enable borrowing of XDC funds using collaterals for medical counseling and preventive treatment by patients with weaker economic conditions. Please visit: https://github.com/aspiringsecurity/Medical-Counselor/tree/main/XDC-borrow-funds
 
-- Polkadot - Ink NFT viewer for viewing the NFTs of NFC tags of medical devices and medical service personnel: We are extending the Ink NFT viewer dapp for viewing the NFTs generated for the NFC tags of medical devices and service repair personnel.
+- Polkadot - Polkadot Analytics and Visualization Tool: https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Medical-Radiology-Data-transparency/dot-analytics%20tooling
 
-WASM smart contract for decentralized Medical Counseling: We are developing smart contracts in wasm ink for decentralized Medical Counseling, deploying on Shibuya, extending UI interaction with astar.js. 
+Ink NFT viewer for viewing the NFTs of NFC tags of medical devices and medical service personnel: We are extending the Ink NFT viewer dapp for viewing the NFTs generated for the NFC tags of medical devices and service repair personnel. Please visit https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Medical-Radiology-Data-transparency/ink-nft-viewer
+
+WASM smart contract for decentralized Medical Counseling: We are developing smart contracts in wasm ink for decentralized Medical Counseling, deploying on Shibuya, extending UI interaction with astar.js. Please visit https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Medical-Radiology-Data-transparency/wasm-medical-dao
 
 
 - Chainlink: We are utilizing Chainlink VRF as follows:
