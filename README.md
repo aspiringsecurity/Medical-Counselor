@@ -8,9 +8,9 @@ Website: https://sites.google.com/view/electronichealthrecords/
 Pitch Deck: https://drive.google.com/drive/u/3/folders/19z-8VC09WmhdMM5XsrCFwYgkhwbSfXKt
 
 
-Features:
+# Features
 
-Data Transparency : Availability of patient’s medical counseling records across different stakeholder through secure Ethereum, Polkadot and XDC blockchain network. The platform utilizes Ethereum and XDC blockchain, IPFS via NFT.Storage, Nucypher i.e. patients and organizations who place their data on the exchange will be able to control which consortium entities have permission to access information. Please visit https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG.
+Data Transparency : Availability of patient’s medical counseling records across different stakeholder through secure Ethereum, Filecoin, Polkadot and XDC blockchain network. The platform utilizes Ethereum and XDC blockchain, IPFS via NFT.Storage, Nucypher i.e. patients and organizations who place their data on the exchange will be able to control which consortium entities have permission to access information. Please visit https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG.
 
 Data Uniformity : Data is processed to make it uniform and stored in PACS (Picture Archiving Communication System) so that it can be utilized by different stakeholders on verified request. Also records are encrypted to avoid any tampering of the data over course of time.
 
