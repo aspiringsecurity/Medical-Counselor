@@ -23,7 +23,7 @@ We are developing a technical solution using Filecoin/IPFS blockchain developer 
 
 # BlockChain Eco-system and Tools
 
-- XDC blockchain network: We are using XDC blockchain network to enable borrowing of XDC funds using collaterals for medical counseling and preventive treatment by patients with weaker economic conditions. Please visit: https://github.com/aspiringsecurity/Medical-Counselor/tree/main/XDC-borrow-funds
+## Polkadot
 
 - Polkadot - Polkadot Analytics and Visualization Tool: https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Medical-Radiology-Data-transparency/dot-analytics%20tooling
 
@@ -41,6 +41,8 @@ Parametric Insurance Solution for patients with special needs. We are utilizing 
 
 
 - Covalent End Point: Covalent-NFT-Dashboard enables us to analyze, observe all NFTs from wallet address in different networks. Please visit https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Covalent-NFT-Dashboard
+
+- XDC blockchain network: We are using XDC blockchain network to enable borrowing of XDC funds using collaterals for medical counseling and preventive treatment by patients with weaker economic conditions. Please visit: https://github.com/aspiringsecurity/Medical-Counselor/tree/main/XDC-borrow-funds
 
 
 2.  Axelar, Polygon, Fantom: Axelar for communication between Polygon blockchain and Fantom destination chain. Please visit 
