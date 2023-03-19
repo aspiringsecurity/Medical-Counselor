@@ -1,5 +1,5 @@
 # Medical-Counselor
-Medical Counseling, preventive treatment and remediation portal using IPFS, NFT.Storage, Embark, Chainlink, XDC and Near Protocol. We provide secure data storage & transparency of medical counseling report data using decentralized data storage powered by IPFS, Orthanc PACS (picture archiving and communication system) using NFT.storage, Polkadot, Ink Smart Contracts, Chainlink VRF, XDC and Near Protocol. Our service aims at providing secure data storage, transparent data movement and data authenticity.
+Medical Counseling, preventive treatment and remediation portal using IPFS, Ethereum, Embark, Chainlink, XDC and Near Protocol. We provide secure data storage & transparency of medical counseling report data using decentralized data storage powered by IPFS, Orthanc PACS (picture archiving and communication system) using NFT.storage, Polkadot, Ink Smart Contracts, Chainlink VRF, XDC and Near Protocol. Our service aims at providing secure data storage, transparent data movement and data authenticity.
 
 Our decentralized chat application enables medical counselling in a privacy preserved chat like interface (please visit  https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG )
 
