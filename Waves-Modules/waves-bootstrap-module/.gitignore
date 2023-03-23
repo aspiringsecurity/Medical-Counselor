@@ -1,0 +1,35 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Vim
+*.swo
+*.swp
+
+# Profiling
+*.prof
+
+.idea/
+vendor/
+build/
+out/
+.run/
+
+*.lock
+*.txt
+*.log
+*.mem
+!cmd/wmd/symbols.txt
+**/.DS_Store
+.DS_Store
+blocks_storage
+key_value

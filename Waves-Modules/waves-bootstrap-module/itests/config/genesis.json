@@ -1,0 +1,77 @@
+{
+  "scheme": "L",
+  "average_block_delay": 10,
+  "min_block_time": 5000,
+  "delay_delta": 0,
+  "preactivated_features": [
+    {"feature": 1, "height": 0},
+    {"feature": 2, "height": 0},
+    {"feature": 3, "height": 0},
+    {"feature": 4, "height": 0},
+    {"feature": 5, "height": 0},
+    {"feature": 6, "height": 0},
+    {"feature": 7, "height": 0},
+    {"feature": 8, "height": 0},
+    {"feature": 9, "height": 0},
+    {"feature": 10, "height": 0},
+    {"feature": 11, "height": 0},
+    {"feature": 12, "height": 0},
+    {"feature": 13, "height": 0},
+    {"feature": 14, "height": 2},
+    {"feature": 15, "height": 0},
+    {"feature": 16, "height": 0},
+    {"feature": 17, "height": 0}
+  ],
+  "distributions": [
+    {
+      "seed_text": "node01",
+      "amount": 10000000000000,
+      "is_miner": true
+    },
+    {
+      "seed_text": "node02",
+      "amount": 15000000000000,
+      "is_miner": true
+    },
+    {
+      "seed_text": "node03",
+      "amount": 25000000000000,
+      "is_miner": false
+    },
+    {
+      "seed_text": "node04",
+      "amount": 25000000000000,
+      "is_miner": false
+    },
+    {
+      "seed_text": "node05",
+      "amount": 40000000000000,
+      "is_miner": false
+    },
+    {
+      "seed_text": "node06",
+      "amount": 45000000000000,
+      "is_miner": false
+    },
+    {
+      "seed_text": "node07",
+      "amount": 60000000000000,
+      "is_miner": false
+    },
+    {
+      "seed_text": "node08",
+      "amount": 80000000000000,
+      "is_miner": false
+    },
+    {
+      "seed_text": "node09",
+      "amount": 100000000000000,
+      "is_miner": false
+    },
+    {
+      "seed_text": "node10",
+      "amount": 6000000000000000,
+      "is_miner": false
+    }
+  ]
+}
