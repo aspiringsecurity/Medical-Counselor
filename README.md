@@ -28,15 +28,11 @@ We are developing a technical solution using Filecoin/IPFS blockchain developer 
 Medical Counseling, preventive treatment and remediation portal using IPFS and Filecoin, Ethereum, Optimism and Embark via decentralized Twitter like chat and messaging application.
 
 
-## Polkadot and Ink Smart Contracts
+## Web3 Eco-system Tools
 
-Polkadot - Polkadot Analytics and Visualization Tool: https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Medical-Radiology-Data-transparency/dot-analytics%20tooling
+- XDC blockchain network: We are using XDC blockchain network to enable borrowing of XDC funds using collaterals for medical counseling and preventive treatment by patients with weaker economic conditions. Please visit: https://github.com/aspiringsecurity/Medical-Counselor/tree/main/XDC-borrow-funds
 
-Ink NFT viewer for viewing the NFTs of NFC tags of medical devices and medical service personnel: We are extending the Ink NFT viewer dapp for viewing the NFTs generated for the NFC tags of medical devices and service repair personnel. Please visit https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Medical-Radiology-Data-transparency/ink-nft-viewer
-
-WASM smart contract for decentralized Medical Counseling: We are developing smart contracts in wasm ink for decentralized Medical Counseling, deploying on Shibuya, extending UI interaction with astar.js. Please visit https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Medical-Radiology-Data-transparency/wasm-medical-dao
-
-Experiments with pallet assets chain extension: https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Medical-Radiology-Data-transparency/pallet-assets-chain-extension
+- Covalent End Point: Covalent-NFT-Dashboard enables us to analyze, observe all NFTs from wallet address in different networks. Please visit https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Covalent-NFT-Dashboard
 
 
 ## Chainlink
@@ -48,13 +44,6 @@ Medical Counselling Bill Generation: We are utilizing Chainlink Mix to work with
 Parametric Insurance Solution for patients with special needs. We are utilizing an existing example at chainlink github repo to develop an insurance solution for patients. Link: https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Audit-Module
 
 
-## Web3 Eco-system Tools
-
-- Covalent End Point: Covalent-NFT-Dashboard enables us to analyze, observe all NFTs from wallet address in different networks. Please visit https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Covalent-NFT-Dashboard
-
-- XDC blockchain network: We are using XDC blockchain network to enable borrowing of XDC funds using collaterals for medical counseling and preventive treatment by patients with weaker economic conditions. Please visit: https://github.com/aspiringsecurity/Medical-Counselor/tree/main/XDC-borrow-funds
-
-
 2.  Axelar, Polygon, Fantom: Axelar for communication between Polygon blockchain and Fantom destination chain. Please visit 
 
 a. Cross chain dapp development using https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Axelar-Fantom-destination-chain/axelar-Medical-Counselor . We are extending the starter kit to develop cross chain dapps using Axelar.
@@ -64,5 +53,22 @@ b. Cross chain lending platform: We can supply collateral and borrow tokens from
 c. Government organizations can send aUSDC from Polygon source-chain to Fantom destination-chain and distribute it equally among all accounts specified for subsidy or reimbursement using call contract with token. Please visit https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Axelar-Fantom-destination-chain/govt-policy-reimburse-call-contract-with-token
 
 3. Multi-Chain: MultiChain Webapp integration with SocialCalc for analysis, tabulation, graphing, charting and visualization.
+
+
+## Interoperability with Polkadot and Ink Smart Contracts 
+
+Polkadot - Polkadot Analytics and Visualization Tool: https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Medical-Radiology-Data-transparency/dot-analytics%20tooling
+
+Ink NFT viewer for viewing the NFTs of NFC tags of medical devices and medical service personnel: We are extending the Ink NFT viewer dapp for viewing the NFTs generated for the NFC tags of medical devices and service repair personnel. Please visit https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Medical-Radiology-Data-transparency/ink-nft-viewer
+
+WASM smart contract for decentralized Medical Counseling: We are developing smart contracts in wasm ink for decentralized Medical Counseling, deploying on Shibuya, extending UI interaction with astar.js. Please visit https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Medical-Radiology-Data-transparency/wasm-medical-dao
+
+Experiments with pallet assets chain extension: https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Medical-Radiology-Data-transparency/pallet-assets-chain-extension
+
+
+
+
+
+
 
 
