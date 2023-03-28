@@ -1,5 +1,5 @@
 # Medical-Counselor
-Medical Counseling, preventive treatment and remediation portal using IPFS, Ethereum, Embark, Chainlink, XDC and Near Protocol. We provide secure data storage & transparency of medical counseling report data using decentralized data storage powered by IPFS, Orthanc PACS (picture archiving and communication system) using NFT.storage, Polkadot, Ink Smart Contracts, Chainlink VRF, XDC and Near Protocol. Our service aims at providing secure data storage, transparent data movement and data authenticity.
+Medical Counseling, preventive treatment and remediation portal using IPFS, Ethereum, Embark, Chainlink, XDC, XRPL and Near Protocol. We provide secure data storage & transparency of medical counseling report data using decentralized data storage powered by IPFS, Orthanc PACS (picture archiving and communication system) using NFT.storage, Polkadot, Ink Smart Contracts, Chainlink VRF, XDC and Near Protocol. Our service aims at providing secure data storage, transparent data movement and data authenticity.
 
 Our decentralized chat application enables medical counselling in a privacy preserved chat like interface (please visit  https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG )
 
@@ -26,6 +26,22 @@ We are developing a technical solution using Filecoin/IPFS blockchain developer 
 ## Optimism, Ethereum, Embark, IPFS and Filecoin
 
 Medical Counseling, preventive treatment and remediation portal using IPFS and Filecoin, Ethereum, Optimism and Embark via decentralized Twitter like chat and messaging application.
+
+
+# XRPL py Lite for for asset management, automation in Medi Assist
+
+We are utilizing xrpl-py-lite for asset management, automation and reducing transaction costs with XRP Ledger in Medi Assist. This is especially useful for enabling medical eco-system comprising of patients, doctors, counselors, TPAs & insurers, pharma and R&D organizations.
+
+Features:
+
+Account creation;
+XRPL and Asset transfer;
+Xrpl and asset management;
+Creation and management of Escrows, with support for conditions;
+Creation and management of Checks;
+Creation and management of Offers;
+Token creation and management;
+NFT creation and management.
 
 
 ## Web3 Eco-system Tools
