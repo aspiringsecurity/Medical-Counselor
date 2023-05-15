@@ -1,5 +1,5 @@
 # Medical-Counselor
-Medical Counseling, preventive treatment and remediation portal using IPFS, Ethereum, Embark, Chainlink, XDC, XRPL and Near Protocol. We provide secure data storage & transparency of medical counseling report data using decentralized data storage powered by IPFS, Orthanc PACS (picture archiving and communication system) using NFT.storage, Polkadot, Ink Smart Contracts, Chainlink VRF, XDC and Near Protocol. Our service aims at providing secure data storage, transparent data movement and data authenticity.
+Medical Counseling, preventive treatment and remediation portal for making personalized medicine more affordable and accessible. We provide secure data storage & transparency of medical counseling report data using decentralized data storage powered by IPFS, Orthanc PACS (picture archiving and communication system) using NFT.storage, Polkadot, Ink Smart Contracts, Chainlink VRF, XDC and Near Protocol. Our service aims at providing secure data storage, transparent data movement and data authenticity.
 
 Our decentralized chat application enables medical counselling in a privacy preserved chat like interface (please visit  https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG )
 
@@ -23,26 +23,20 @@ We are developing a technical solution using Filecoin/IPFS blockchain developer 
 
 # BlockChain Eco-system and Tools
 
+## Interoperability with Polkadot and Ink Smart Contracts 
+
+Polkadot - Polkadot Analytics and Visualization Tool: https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Medical-Radiology-Data-transparency/dot-analytics%20tooling
+
+Ink NFT viewer for viewing the NFTs of NFC tags of medical devices and medical service personnel: We are extending the Ink NFT viewer dapp for viewing the NFTs generated for the NFC tags of medical devices and service repair personnel. Please visit https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Medical-Radiology-Data-transparency/ink-nft-viewer
+
+WASM smart contract for decentralized Medical Counseling: We are developing smart contracts in wasm ink for decentralized Medical Counseling, deploying on Shibuya, extending UI interaction with astar.js. Please visit https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Medical-Radiology-Data-transparency/wasm-medical-dao
+
+Experiments with pallet assets chain extension: https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Medical-Radiology-Data-transparency/pallet-assets-chain-extension
+
+
 ## Optimism, Ethereum, Embark, IPFS and Filecoin
 
 Medical Counseling, preventive treatment and remediation portal using IPFS and Filecoin, Ethereum, Optimism and Embark via decentralized Twitter like chat and messaging application.
-
-
-# XRPL py Lite for for asset management, automation in Medi Assist
-
-We are utilizing xrpl-py-lite for asset management, automation and reducing transaction costs with XRP Ledger in Medi Assist. This is especially useful for enabling medical eco-system comprising of patients, doctors, counselors, TPAs & insurers, pharma and R&D organizations.
-
-Features:
-
-Account creation;
-XRPL and Asset transfer;
-Xrpl and asset management;
-Creation and management of Escrows, with support for conditions;
-Creation and management of Checks;
-Creation and management of Offers;
-Token creation and management;
-NFT creation and management.
-
 
 ## Web3 Eco-system Tools
 
@@ -70,17 +64,20 @@ c. Government organizations can send aUSDC from Polygon source-chain to Fantom d
 
 3. Multi-Chain: MultiChain Webapp integration with SocialCalc for analysis, tabulation, graphing, charting and visualization.
 
+4. XRPL py Lite for for asset management, automation in Medi Assist
 
-## Interoperability with Polkadot and Ink Smart Contracts 
+We are utilizing xrpl-py-lite for asset management, automation and reducing transaction costs with XRP Ledger in Medi Assist. This is especially useful for enabling medical eco-system comprising of patients, doctors, counselors, TPAs & insurers, pharma and R&D organizations.
 
-Polkadot - Polkadot Analytics and Visualization Tool: https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Medical-Radiology-Data-transparency/dot-analytics%20tooling
+Features:
 
-Ink NFT viewer for viewing the NFTs of NFC tags of medical devices and medical service personnel: We are extending the Ink NFT viewer dapp for viewing the NFTs generated for the NFC tags of medical devices and service repair personnel. Please visit https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Medical-Radiology-Data-transparency/ink-nft-viewer
-
-WASM smart contract for decentralized Medical Counseling: We are developing smart contracts in wasm ink for decentralized Medical Counseling, deploying on Shibuya, extending UI interaction with astar.js. Please visit https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Medical-Radiology-Data-transparency/wasm-medical-dao
-
-Experiments with pallet assets chain extension: https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Medical-Radiology-Data-transparency/pallet-assets-chain-extension
-
+Account creation;
+XRPL and Asset transfer;
+Xrpl and asset management;
+Creation and management of Escrows, with support for conditions;
+Creation and management of Checks;
+Creation and management of Offers;
+Token creation and management;
+NFT creation and management.
 
 
 
