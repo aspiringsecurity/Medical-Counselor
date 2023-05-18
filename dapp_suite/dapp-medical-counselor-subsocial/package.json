@@ -1,0 +1,24 @@
+{
+  "name": "@subsocial/cra-template-starter",
+  "version": "0.0.3",
+  "main": "index.js",
+  "author": "DappForce contributors",
+  "license": "Apache-2.0",
+  "description": "The start of your Web3 social journey.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dappforce/subsocial-starter.git"
+  },
+  "keywords": [
+    "cra",
+    "subsocial",
+    "starter",
+    "react",
+    "template",
+    "web3"
+  ],
+  "bugs": {
+    "url": "https://github.com/dappforce/subsocial-starter/issues"
+  },
+  "homepage": "https://github.com/dappforce/subsocial-starter#readme"
+}
