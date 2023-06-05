@@ -34,7 +34,9 @@ We are developing a technical solution using Filecoin/IPFS blockchain developer 
 - Theta Medication Log dapp module
 
 
-## Interoperability with Polkadot and Ink Smart Contracts 
+# Supporting Web3 Eco-system Tools and Modules
+
+- Interoperability with Polkadot and Ink Smart Contracts 
 
 Polkadot - Polkadot Analytics and Visualization Tool: https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Medical-Radiology-Data-transparency/dot-analytics%20tooling
 Please visit demo at https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG
