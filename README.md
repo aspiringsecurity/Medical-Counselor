@@ -33,6 +33,8 @@ We are developing a technical solution using Filecoin/IPFS blockchain developer 
 
 - Theta Medication Log dapp module
 
+Theta Modules at https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Theta-Modules
+
 
 # Supporting Web3 Eco-system Tools and Modules
 
