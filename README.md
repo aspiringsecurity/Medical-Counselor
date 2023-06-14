@@ -1,5 +1,5 @@
 # Medical-Counselor
-Medical Counseling, preventive treatment and remediation portal for making personalized medicine more affordable and accessible. We provide secure data storage & transparency of medical counseling report data using decentralized data storage powered by IPFS, Theta Blockchain, Orthanc PACS (picture archiving and communication system) using NFT.storage, Polkadot, Ink Smart Contracts, Chainlink VRF, XDC and Near Protocol. Our service aims at providing secure data storage, transparent data movement and data authenticity.
+Medical Counseling, preventive treatment and remediation portal for making personalized medicine more affordable and accessible. We provide secure data storage & transparency of medical counseling report data using decentralized data storage powered by IPFS, Chainlink Blockchain, Orthanc PACS (picture archiving and communication system) using NFT.storage, Polkadot, Ink Smart Contracts, Chainlink VRF, XDC and Near Protocol. Our service aims at providing secure data storage, transparent data movement and data authenticity.
 
 Our decentralized chat application enables medical counselling in a privacy preserved chat like interface (please visit  https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG )
 
@@ -10,7 +10,7 @@ Pitch Deck: https://drive.google.com/drive/u/3/folders/19z-8VC09WmhdMM5XsrCFwYgk
 
 # Features
 
-Data Transparency : Availability of patient’s medical counseling records across different stakeholder through secure Theta Blockchain, Ethereum, Filecoin and XDC blockchain network. The platform utilizes Theta, Ethereum and XDC blockchain, IPFS via NFT.Storage, Nucypher i.e. patients and organizations who place their data on the exchange will be able to control which consortium entities have permission to access information. Please visit https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG.
+Data Transparency : Availability of patient’s medical counseling records across different stakeholder through secure Chainlink Blockchain, Ethereum, Filecoin and XDC blockchain network. The platform utilizes Chainlink, Ethereum and XDC blockchain, IPFS via NFT.Storage, Nucypher i.e. patients and organizations who place their data on the exchange will be able to control which consortium entities have permission to access information. Please visit https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG.
 
 Data Uniformity : Data is processed to make it uniform and stored in PACS (Picture Archiving Communication System) so that it can be utilized by different stakeholders on verified request. Also records are encrypted to avoid any tampering of the data over course of time.
 
@@ -23,17 +23,19 @@ We are developing a technical solution using Filecoin/IPFS blockchain developer 
 
 # BlockChain Eco-system and Tools
 
-## Theta Blockchain
+## Chainlink Blockchain
 
-- Theta User Analytics for tabulation, organization and validation
+- Chainlink User Analytics for tabulation, organization and validation
 
-- Theta Sub-Chain implementation under the MetaChain Architecture
+- Chainlink User Security for doctors and patients
 
-- Theta User Security for doctors and patients
+- Chainlink Medication Log dapp module
 
-- Theta Medication Log dapp module
+- We are utilizing Chainlink VRF as follows:
 
-Theta Modules at https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Theta-Modules and https://github.com/aspiringsecurity/Medical-Counselor/tree/main/dapp_suite
+Medical Counselling Bill Generation: We are utilizing Chainlink Mix to work with Chainlink smart contracts. The bill script will deploy a smart contract to goerli and get a Random number via Chainlink VRF, which can used to identify a unique transaction/order number for the medical consulting bill.
+
+Parametric Insurance Solution for patients with special needs. We are utilizing an existing example at chainlink github repo to develop an insurance solution for patients. Link: https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Audit-Module
 
 
 # Supporting Web3 Eco-system Tools and Modules
@@ -65,14 +67,9 @@ Medical Counseling, preventive treatment and remediation portal using IPFS and F
 
 - Covalent End Point: Covalent-NFT-Dashboard enables us to analyze, observe all NFTs from wallet address in different networks. Please visit https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Covalent-NFT-Dashboard
 
+- Theta Sub-Chain implementation under the MetaChain Architecture
 
-## Chainlink
-
-- Chainlink: We are utilizing Chainlink VRF as follows:
-
-Medical Counselling Bill Generation: We are utilizing Chainlink Mix to work with Chainlink smart contracts. The bill script will deploy a smart contract to goerli and get a Random number via Chainlink VRF, which can used to identify a unique transaction/order number for the medical consulting bill.
-
-Parametric Insurance Solution for patients with special needs. We are utilizing an existing example at chainlink github repo to develop an insurance solution for patients. Link: https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Audit-Module
+Theta Modules at https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Theta-Modules and https://github.com/aspiringsecurity/Medical-Counselor/tree/main/dapp_suite
 
 
 2.  Axelar, Polygon, Fantom: Axelar for communication between Polygon blockchain and Fantom destination chain. Please visit 
