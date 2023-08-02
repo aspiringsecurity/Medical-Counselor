@@ -72,15 +72,6 @@ Medical Counseling, preventive treatment and remediation portal using IPFS and F
 
 Theta Modules at https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Theta-Modules and https://github.com/aspiringsecurity/Medical-Counselor/tree/main/dapp_suite
 
-
-2.  Axelar, Polygon, Fantom: Axelar for communication between Polygon blockchain and Fantom destination chain. Please visit 
-
-a. Cross chain dapp development using https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Axelar-Fantom-destination-chain/axelar-Medical-Counselor . We are extending the starter kit to develop cross chain dapps using Axelar.
-
-b. Cross chain lending platform: We can supply collateral and borrow tokens from a satellite chain to a fork of Ethereum's mainnet using existing Compound Protocol. Please visit https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Axelar-Fantom-destination-chain/collateral-cross-chain-lending
-
-c. Government organizations can send aUSDC from Polygon source-chain to Fantom destination-chain and distribute it equally among all accounts specified for subsidy or reimbursement using call contract with token. Please visit https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Axelar-Fantom-destination-chain/govt-policy-reimburse-call-contract-with-token
-
 3. Multi-Chain: MultiChain Webapp integration with SocialCalc for analysis, tabulation, graphing, charting and visualization.
 
 4. XRPL py Lite for for asset management, automation in Medi Assist
