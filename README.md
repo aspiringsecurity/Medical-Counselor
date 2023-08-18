@@ -1,6 +1,6 @@
 # Medi Assist
 
-Medical Counseling, preventive treatment and remediation portal for making personalized medicine more affordable and accessible. We provide secure data storage & transparency of medical counseling report data using decentralized data storage powered by IPFS, Chainlink Blockchain, Orthanc PACS (picture archiving and communication system) using NFT.storage, Polkadot, Ink Smart Contracts, Chainlink VRF, XDC and Near Protocol. Our service aims at providing secure data storage, transparent data movement and data authenticity.
+Medical Counseling, preventive treatment and remediation portal for making personalized medicine more affordable and accessible. We provide secure data storage & transparency of medical counseling report data using decentralized data storage powered by XRP Ledger, IPFS, Chainlink Blockchain, Orthanc PACS (picture archiving and communication system) using NFT.storage, Polkadot, Ink Smart Contracts, Chainlink VRF, XDC and Near Protocol. Our service aims at providing secure data storage, transparent data movement and data authenticity.
 
 Our decentralized chat application enables medical counselling in a privacy preserved chat like interface (please visit  https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG )
 
@@ -11,7 +11,7 @@ Pitch Deck: https://drive.google.com/drive/u/3/folders/19z-8VC09WmhdMM5XsrCFwYgk
 
 # Features
 
-Data Transparency : Availability of patient’s medical counseling records across different stakeholder through secure Chainlink & Flow Blockchain, Ethereum, Filecoin, Space and Time, Truflation, Verse DEX, XDC & Polkadot blockchain network. The platform utilizes Chainlink, Ethereum and XDC blockchain, IPFS via NFT.Storage, Nucypher i.e. patients and organizations who place their data on the exchange will be able to control which consortium entities have permission to access information. Please visit https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG.
+Data Transparency : Availability of patient’s medical counseling records across different stakeholder through secure XRP Ledger, Chainlink & Flow Blockchain, Ethereum, Filecoin, Space and Time, Truflation, Verse DEX, XDC & Polkadot blockchain network. The platform utilizes Chainlink, Ethereum and XDC blockchain, IPFS via NFT.Storage, Nucypher i.e. patients and organizations who place their data on the exchange will be able to control which consortium entities have permission to access information. Please visit https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG.
 
 Data Uniformity : Data is processed to make it uniform and stored in PACS (Picture Archiving Communication System) so that it can be utilized by different stakeholders on verified request. Also records are encrypted to avoid any tampering of the data over course of time.
 
@@ -19,10 +19,35 @@ Data Analytics : With the help of computer aided detection and machine learning 
 
 A greater and more seamless flow of information within a digital health care infrastructure, created by electronic health records (EHRs), encompasses and leverages digital progress and can transform the way care is delivered and compensated. EHRs helps in improved care coordination. EHRs helps in making health care ecosystem proactive, accessible and authentic. EHRs with the help of computer aided detection will help in early prediction of diseases.
 
-We are developing a technical solution using Filecoin/IPFS blockchain developer library along with Chainlink automation and Flow, XDC blockchain, Space and Time network, Truflation, open source spreadsheet engine to enable secure data storage, transparent data movement and data authenticity and borrowing XDC funds for drug design and development using collaterals on Chainlink network and Polkadot blockchain.
+We are developing a technical solution using XRP Ledger, Filecoin/IPFS blockchain developer library along with Chainlink automation and Flow, XDC blockchain, Space and Time network, Truflation, open source spreadsheet engine to enable secure data storage, transparent data movement and data authenticity and borrowing XDC funds for drug design and development using collaterals on Chainlink network and Polkadot blockchain.
 
 
 # BlockChain Eco-system and Tools
+
+## XRP Ledger
+
+XRPL py Lite for for asset management, automation in Medi Assist
+
+We are utilizing xrpl-py-lite for asset management, automation and reducing transaction costs with XRP Ledger in Medi Assist. This is especially useful for enabling medical eco-system comprising of patients, doctors, counselors, TPAs & insurers, pharma and R&D organizations.
+
+Features:
+
+Account creation;
+
+XRPL and Asset transfer;
+
+Xrpl and asset management;
+
+Creation and management of Escrows, with support for conditions;
+
+Creation and management of Checks;
+
+Creation and management of Offers;
+
+Token creation and management;
+
+NFT creation and management.
+
 
 ## Chainlink Blockchain
 
@@ -74,20 +99,7 @@ Theta Modules at https://github.com/aspiringsecurity/Medical-Counselor/tree/main
 
 3. Multi-Chain: MultiChain Webapp integration with SocialCalc for analysis, tabulation, graphing, charting and visualization.
 
-4. XRPL py Lite for for asset management, automation in Medi Assist
 
-We are utilizing xrpl-py-lite for asset management, automation and reducing transaction costs with XRP Ledger in Medi Assist. This is especially useful for enabling medical eco-system comprising of patients, doctors, counselors, TPAs & insurers, pharma and R&D organizations.
-
-Features:
-
-Account creation;
-XRPL and Asset transfer;
-Xrpl and asset management;
-Creation and management of Escrows, with support for conditions;
-Creation and management of Checks;
-Creation and management of Offers;
-Token creation and management;
-NFT creation and management.
 
 
 
