@@ -1,9 +1,5 @@
 # Description
-This project contains a sample project that demonstrates the REST service calls required to login to OCP and 
-access information management services (IMS) from OpenText.
-
-The sample code is written in plain javascript and the user can choose whether to run the code in the browser 
-or from a backend Node server.
+ REST service calls required to login to OCP and access information management services (IMS) from OpenText.
 
 When writing your own application you can also use existing OpenID clients, e.g. as published
 on [https://openid.net/developers/certified/](https://openid.net/developers/certified/).
