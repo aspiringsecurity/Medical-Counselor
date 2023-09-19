@@ -1,6 +1,6 @@
 # Medi Assist
 
-Medical Counseling, preventive treatment and remediation portal for making personalized medicine more affordable and accessible. We provide secure data storage & transparency of medical counseling report data using decentralized data storage powered by XRP Ledger, IPFS, Chainlink Blockchain, Orthanc PACS (picture archiving and communication system) using NFT.storage, Polkadot, Ink Smart Contracts, Chainlink VRF, XDC and Near Protocol. Our service aims at providing secure data storage, transparent data movement and data authenticity.
+Medical Counseling, preventive treatment and remediation portal for making personalized medicine more affordable and accessible. We provide secure data storage & transparency of medical counseling report data using Opentext APIs and decentralized data storage powered by XRP Ledger, IPFS, Chainlink Blockchain, Orthanc PACS (picture archiving and communication system) using NFT.storage, Polkadot, Ink Smart Contracts, Chainlink VRF, XDC and Near Protocol. Our service aims at providing secure data storage, transparent data movement and data authenticity.
 
 Our decentralized chat application enables medical counselling in a privacy preserved chat like interface (please visit  https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG )
 
@@ -20,6 +20,14 @@ Data Analytics : With the help of computer aided detection and machine learning 
 A greater and more seamless flow of information within a digital health care infrastructure, created by electronic health records (EHRs), encompasses and leverages digital progress and can transform the way care is delivered and compensated. EHRs helps in improved care coordination. EHRs helps in making health care ecosystem proactive, accessible and authentic. EHRs with the help of computer aided detection will help in early prediction of diseases.
 
 We are developing a technical solution using XRP Ledger, Filecoin/IPFS blockchain developer library along with Chainlink automation and Flow, XDC blockchain, Space and Time network, Truflation, open source spreadsheet engine to enable secure data storage, transparent data movement and data authenticity and borrowing XDC funds for drug design and development using collaterals on Chainlink network and Polkadot blockchain.
+
+# OpenText APIs
+
+Signature workflow in Medical Documents using Open Text API: We are building a docusign type workflow for medical documents powered by Vue.js, flask, Open Text API. We are extending the core signature demo workflow solution.Please visit https://github.com/aspiringsecurity/Medical-Counselor/tree/main/dapp_suite/signature-workflow-opentext-api
+
+Contract Approval Workflow Application for Medical Counselor: We are developing a contract approval application for Medical Counselors using OpenText Cloud Platform. We are consuming IM services from the OpenText Cloud Platform and extending the demo example. Please visit https://github.com/aspiringsecurity/Medical-Counselor/tree/main/dapp_suite/demo-contract-approval-medical-counselor
+
+OCT SSO workflow: REST service calls required to login to OCP and access information management services (IMS) from OpenText. Please visit https://github.com/aspiringsecurity/Medical-Counselor/tree/main/dapp_suite/OCP-sso-workflow-analytics 
 
 
 # BlockChain Eco-system and Tools
