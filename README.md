@@ -4,7 +4,9 @@ Medical Counseling, preventive treatment and remediation portal for making perso
 
 Our decentralized chat application enables medical counselling in a privacy preserved chat like interface (please visit  https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG )
 
-Website: https://sites.google.com/view/electronichealthrecords/
+Website for End Users, Civic Bodies: https://sites.google.com/view/zksync-medical-dao/home
+
+zksyc Era Vercel deployment: https://emttr-zksync-deploy.vercel.app/
 
 Pitch Deck: https://drive.google.com/drive/u/3/folders/19z-8VC09WmhdMM5XsrCFwYgkhwbSfXKt
 
