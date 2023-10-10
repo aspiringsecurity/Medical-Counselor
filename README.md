@@ -11,7 +11,7 @@ Pitch Deck: https://drive.google.com/drive/u/3/folders/19z-8VC09WmhdMM5XsrCFwYgk
 
 # Features
 
-Data Transparency : Availability of patient’s medical counseling records across different stakeholder through secure XRP Ledger, Chainlink & Flow Blockchain, Ethereum, Filecoin, Space and Time, Truflation, Verse DEX, XDC & Polkadot blockchain network. The platform utilizes decentralized storage and transactions, which enables patients and organizations to place their data on the exchange and decide, govern which consortium entities have permission to access information. Please visit https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG.
+Data Transparency : Availability of patient’s medical counseling records across different stakeholder through secure blockchain network. The platform utilizes decentralized storage and transactions, which enables patients and organizations to place their data on the exchange and decide, govern which consortium entities have permission to access information. Please visit https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG.
 
 Data Uniformity : Data is processed to make it uniform and stored in PACS (Picture Archiving Communication System) so that it can be utilized by different stakeholders on verified request. Also records are encrypted to avoid any tampering of the data over course of time.
 
@@ -19,7 +19,7 @@ Data Analytics : With the help of computer aided detection and machine learning 
 
 A greater and more seamless flow of information within a digital health care infrastructure, created by electronic health records (EHRs), encompasses and leverages digital progress and can transform the way care is delivered and compensated. EHRs helps in improved care coordination. EHRs helps in making health care ecosystem proactive, accessible and authentic. EHRs with the help of computer aided detection will help in early prediction of diseases.
 
-We are developing a technical solution using XRP Ledger, Filecoin/IPFS blockchain developer library along with Chainlink automation and Flow, XDC blockchain, Space and Time network, Truflation, open source spreadsheet engine to enable secure data storage, transparent data movement and data authenticity and borrowing XDC funds for drug design and development using collaterals on Chainlink network and Polkadot blockchain.
+We are developing a technical solution using  decentralized data storage powered by Onyx and Biconomy blockchain, zksync Era, IPFS, Chainlink Blockchain and Lens Protocol, Orthanc PACS (picture archiving and communication system) using NFT.storage, Chainlink VRF, Magic SDK and Visa payments infrastructure, Filecoin/IPFS blockchain developer library along with Chainlink automation and Flow, XDC blockchain, Space and Time network, Truflation, open source spreadsheet engine to enable secure data storage, transparent data movement and data authenticity and borrowing funds for drug design and development using collaterals on Chainlink network Biconomy and Onyx blockchain.
 
 # Onyx Blockchain, Biconomy and Opentext APIs
 
@@ -42,7 +42,7 @@ Features:
 
 Account creation;
 
-ZK Asset transfer;
+ZK Asset transfer at no costs;
 
 Security and asset management;
 
