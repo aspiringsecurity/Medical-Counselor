@@ -1,4 +1,4 @@
-# Medi Assist
+# zk Medical DAO
 
 Medical Counseling, preventive treatment and remediation portal for making personalized medicine more affordable and accessible. We provide secure data storage & transparency of medical counseling report data using Opentext APIs and decentralized data storage powered by Onyx and Biconomy blockchain, zksync Era, IPFS, Chainlink Blockchain and Lens Protocol, Orthanc PACS (picture archiving and communication system) using NFT.storage, Chainlink VRF, Magic SDK and Visa payments infrastructure, XDC and Near Protocol. Our service aims at providing secure data storage, transparent data movement and data authenticity.
 
