@@ -60,7 +60,9 @@ Token creation and management;
 
 NFT creation and management.
 
-Please visit demos at https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG
+- Demos and Vercel deployment link:
+
+Please visit Vercel deployment link at zksyc Era Vercel deployment: https://emttr-zksync-deploy.vercel.app/ and demos at https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG 
 
 
 ## Chainlink Blockchain with Lens Protocol for off-chain, on-chain data analytics, Magic SDK for Medication Log dapp
