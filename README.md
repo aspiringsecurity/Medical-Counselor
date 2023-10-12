@@ -10,6 +10,8 @@ zksyc Era Vercel deployment: https://emttr-zksync-deploy.vercel.app/
 
 Pitch Deck: https://drive.google.com/drive/u/3/folders/19z-8VC09WmhdMM5XsrCFwYgkhwbSfXKt
 
+Demo Videos at https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG
+
 
 # Features
 
@@ -25,11 +27,11 @@ We are developing a technical solution using  decentralized data storage powered
 
 # Onyx Blockchain, Biconomy and Opentext APIs
 
-Signature workflow in Medical Documents using Onyx Blockchain, Biconomy, Open Text API: We are building a docusign type workflow for medical documents powered by Vue.js, flask, Onyx Blockchain, Biconomy, Open Text API. We are extending the core signature demo workflow solution.Please visit https://github.com/aspiringsecurity/Medical-Counselor/tree/main/dapp_suite/signature-workflow-opentext-api
+Signature workflow in Medical Documents using Onyx Blockchain, Biconomy, Open Text API: We are building a docusign type workflow for medical documents powered by Vue.js, flask, Onyx Blockchain, Biconomy, Open Text API. We are extending the core signature demo workflow solution.Please visit https://github.com/aspiringsecurity/Medical-Counselor/tree/main/dapp_suite/signature-workflow-opentext-api and demo video at https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG (Demo 1 and 3).
 
-Contract Approval Workflow Application for Medical Counselor: We are developing a contract approval application for Medical Counselors using Onyx Blockchain, Biconomy, OpenText Cloud Platform. We are consuming IM services from the OpenText Cloud Platform and extending the demo example. Please visit https://github.com/aspiringsecurity/Medical-Counselor/tree/main/dapp_suite/demo-contract-approval-medical-counselor
+Contract Approval Workflow Application for Medical Counselor: We are developing a contract approval application for Medical Counselors using Onyx Blockchain, Biconomy, OpenText Cloud Platform. We are consuming IM services from the OpenText Cloud Platform and extending the demo example. Please visit https://github.com/aspiringsecurity/Medical-Counselor/tree/main/dapp_suite/demo-contract-approval-medical-counselor and demo video at https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG (Demo 1 and 3)
 
-Onyx and OCT SSO workflow: REST service calls required to login to OCP and access information management services (IMS) from OpenText. Please visit https://github.com/aspiringsecurity/Medical-Counselor/tree/main/dapp_suite/OCP-sso-workflow-analytics 
+Onyx and OCT SSO workflow: REST service calls required to login to OCP and access information management services (IMS) from OpenText. Please visit https://github.com/aspiringsecurity/Medical-Counselor/tree/main/dapp_suite/OCP-sso-workflow-analytics and demo video at https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG (Demo 2)
 
 
 # BlockChain Eco-system and Tools
@@ -58,6 +60,8 @@ Token creation and management;
 
 NFT creation and management.
 
+Please visit demos at https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG
+
 
 ## Chainlink Blockchain with Lens Protocol for off-chain, on-chain data analytics, Magic SDK for Medication Log dapp
 
@@ -67,16 +71,24 @@ NFT creation and management.
 
 - Chainlink and Magic SDK Medication Log dapp module
 
-- We are utilizing Chainlink VRF as follows:
+- Please visit demos at https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG
 
-Medical Counselling Bill Generation: We are utilizing Chainlink Mix to work with Chainlink smart contracts. The bill script will deploy a smart contract to goerli and get a Random number via Chainlink VRF, which can used to identify a unique transaction/order number for the medical consulting bill.
 
-Parametric Insurance Solution for patients with special needs. We are utilizing an existing example at chainlink github repo to develop an insurance solution for patients. Link: https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Audit-Module
+ ## Visa B2B infrastructure
+
+We are utilizing Chainlink VRF and Visa B2B infrastructure as follows:
+
+- Medical Counselling Bill Generation : We are utilizing Chainlink Mix to work with Chainlink smart contracts. The bill script will deploy a smart contract to goerli and get a Random number via Chainlink VRF, which can used to identify a unique transaction/order number for the medical consulting bill and payments using Visa B2B infrastructure.
+
+- Parametric Insurance Solution for patients with special needs and payment using Visa B2B infrastructure. We are utilizing an existing example at chainlink github repo to develop an insurance solution for patients. Link: https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Audit-Module
+
+- Interoperability with Visa Payment infrastructure, Ethereum and Filecoin eco-system.
+
+Please visit demos at https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG
+
 
 
 # Supporting Web3 Eco-system Tools and Modules
-
-- Interoperability with Visa Payment infrastructure, Ethereum and Filecoin eco-system.
 
 Polkadot - Polkadot Analytics and Visualization Tool: https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Medical-Radiology-Data-transparency/dot-analytics%20tooling
 Please visit demo at https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG
