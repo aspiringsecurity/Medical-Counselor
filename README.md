@@ -1,6 +1,6 @@
 # zk Medical DAO
 
-Medical Counseling, preventive treatment and remediation portal for making personalized medicine more affordable and accessible. We provide secure data storage & transparency of medical counseling report data using Opentext APIs and decentralized data storage powered by Onyx and Biconomy blockchain, zksync Era, IPFS, Chainlink Blockchain and Lens Protocol, Orthanc PACS (picture archiving and communication system) using NFT.storage, Chainlink VRF, Magic SDK and Visa payments infrastructure, XDC and Near Protocol. Our service aims at providing secure data storage, transparent data movement and data authenticity.
+Medical Counseling, preventive treatment and remediation portal for making personalized medicine more affordable and accessible. We provide secure data storage & transparency of medical counseling report data using Opentext APIs and decentralized data storage powered by Onyx and Biconomy blockchain, zksync Era, Polkadot, Ink Smart Contracts IPFS, Chainlink Blockchain and Lens Protocol, Orthanc PACS (picture archiving and communication system) using NFT.storage, Chainlink VRF, Magic SDK and Visa payments infrastructure, XDC and Near Protocol. Our service aims at providing secure data storage, transparent data movement and data authenticity.
 
 Our decentralized chat application enables medical counselling in a privacy preserved chat like interface (please visit  https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG )
 
@@ -65,6 +65,23 @@ NFT creation and management.
 Please visit Vercel deployment link at zksyc Era Vercel deployment: https://emttr-zksync-deploy.vercel.app/ and demos at https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG 
 
 
+# Polkadot Web3 Eco-system, Ink Smart Contract Tools and Modules
+
+Polkadot - Polkadot Analytics and Visualization Tool: https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Medical-Radiology-Data-transparency/dot-analytics%20tooling
+Please visit demo at https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG
+
+Dapp suite and Subsocial Plugins: Medical Invoice, Medical Suite and Dose Schedule, Medication Log: please visit https://github.com/aspiringsecurity/Medical-Counselor/tree/main/dapp_suite
+Please visit demo at https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG
+
+Ink NFT viewer for viewing the NFTs of NFC tags of medical devices and medical service personnel: We are extending the Ink NFT viewer dapp for viewing the NFTs generated for the NFC tags of medical devices and service repair personnel. Please visit https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Medical-Radiology-Data-transparency/ink-nft-viewer
+Demo link: https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG
+
+WASM smart contract for decentralized Medical Counseling: We are developing smart contracts in wasm ink for decentralized Medical Counseling, deploying on Shibuya, extending UI interaction with astar.js. Please visit https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Medical-Radiology-Data-transparency/wasm-medical-dao
+Demo available at https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG
+
+Experiments with pallet assets chain extension: https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Medical-Radiology-Data-transparency/pallet-assets-chain-extension
+
+
 ## Chainlink Blockchain with Lens Protocol for off-chain, on-chain data analytics, Magic SDK for Medication Log dapp
 
 - Chainlink and lens User Analytics for tabulation, organization and validation
@@ -87,24 +104,6 @@ We are utilizing Chainlink VRF and Visa B2B infrastructure as follows:
 - Interoperability with Visa Payment infrastructure, Ethereum and Filecoin eco-system.
 
 Please visit demos at https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG
-
-
-
-# Supporting Web3 Eco-system Tools and Modules
-
-Polkadot - Polkadot Analytics and Visualization Tool: https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Medical-Radiology-Data-transparency/dot-analytics%20tooling
-Please visit demo at https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG
-
-Dapp suite and Subsocial Plugins: Medical Invoice, Medical Suite and Dose Schedule, Medication Log: please visit https://github.com/aspiringsecurity/Medical-Counselor/tree/main/dapp_suite
-Please visit demo at https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG
-
-Ink NFT viewer for viewing the NFTs of NFC tags of medical devices and medical service personnel: We are extending the Ink NFT viewer dapp for viewing the NFTs generated for the NFC tags of medical devices and service repair personnel. Please visit https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Medical-Radiology-Data-transparency/ink-nft-viewer
-Demo link: https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG
-
-WASM smart contract for decentralized Medical Counseling: We are developing smart contracts in wasm ink for decentralized Medical Counseling, deploying on Shibuya, extending UI interaction with astar.js. Please visit https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Medical-Radiology-Data-transparency/wasm-medical-dao
-Demo available at https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG
-
-Experiments with pallet assets chain extension: https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Medical-Radiology-Data-transparency/pallet-assets-chain-extension
 
 
 ## Optimism, Ethereum, Embark, IPFS and Filecoin
