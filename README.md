@@ -4,9 +4,7 @@ Medical Counseling, preventive treatment and remediation portal for making perso
 
 Our decentralized chat application enables medical counselling in a privacy preserved chat like interface (please visit  https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG )
 
-Website for End Users, Civic Bodies: https://sites.google.com/view/zksync-medical-dao/home
-
-zksyc Era Vercel deployment: https://emttr-zksync-deploy.vercel.app/
+Ink Smart Contracts and Polkadot User Information website: https://sites.google.com/view/electronichealthrecords/home
 
 Pitch Deck: https://drive.google.com/drive/u/3/folders/19z-8VC09WmhdMM5XsrCFwYgkhwbSfXKt
 
@@ -41,6 +39,10 @@ Onyx and OCT SSO workflow: REST service calls required to login to OCP and acces
 zksync Era Paymasters, Wallet and Ledger for for asset management, automation in Medi Assist
 
 We are utilizing zksync Era Paymasters, Wallet and Ledger for asset management, automation and reducing transaction costs with zksync in Medi Assist. This is especially useful for enabling medical eco-system comprising of patients, doctors, counselors, TPAs & insurers, pharma and R&D organizations.
+
+Website for End Users, Civic Bodies: https://sites.google.com/view/zksync-medical-dao/home
+
+zksyc Era Vercel deployment: https://emttr-zksync-deploy.vercel.app/
 
 Features:
 
