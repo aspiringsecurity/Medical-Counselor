@@ -1,6 +1,6 @@
 # zk Medical DAO
 
-Medical Counseling, preventive treatment and remediation portal for making personalized medicine more affordable and accessible. We provide secure data storage & transparency of medical counseling report data using Opentext APIs and decentralized data storage powered by Onyx and Biconomy blockchain, zksync Era, Polkadot, Ink Smart Contracts IPFS, Chainlink Blockchain and Lens Protocol, Orthanc PACS (picture archiving and communication system) using NFT.storage, Chainlink VRF, Magic SDK and Visa payments infrastructure, XDC and Near Protocol. Our service aims at providing secure data storage, transparent data movement and data authenticity.
+Medical Counseling, preventive treatment and remediation portal for making personalized medicine more affordable and accessible. We provide secure data storage & transparency of medical counseling report data using Opentext APIs and decentralized data storage powered by Polkadot, Ink Smart Contracts IPFS, Chainlink Blockchain, Orthanc PACS (picture archiving and communication system) using NFT.storage, Chainlink VRF, XDC and Near Protocol. Our service aims at providing secure data storage, transparent data movement and data authenticity.
 
 Our decentralized chat application enables medical counselling in a privacy preserved chat like interface (please visit  https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG )
 
@@ -23,49 +23,7 @@ A greater and more seamless flow of information within a digital health care inf
 
 We are developing a technical solution using  decentralized data storage powered by Onyx and Biconomy blockchain, zksync Era, IPFS, Chainlink Blockchain and Lens Protocol, Orthanc PACS (picture archiving and communication system) using NFT.storage, Chainlink VRF, Magic SDK and Visa payments infrastructure, Filecoin/IPFS blockchain developer library along with Chainlink automation and Flow, XDC blockchain, Space and Time network, Truflation, open source spreadsheet engine to enable secure data storage, transparent data movement and data authenticity and borrowing funds for drug design and development using collaterals on Chainlink network Biconomy and Onyx blockchain.
 
-# Onyx Blockchain, Biconomy and Opentext APIs
-
-Signature workflow in Medical Documents using Onyx Blockchain, Biconomy, Open Text API: We are building a docusign type workflow for medical documents powered by Vue.js, flask, Onyx Blockchain, Biconomy, Open Text API. We are extending the core signature demo workflow solution.Please visit https://github.com/aspiringsecurity/Medical-Counselor/tree/main/dapp_suite/signature-workflow-opentext-api and demo video at https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG (Demo 1 and 3).
-
-Contract Approval Workflow Application for Medical Counselor: We are developing a contract approval application for Medical Counselors using Onyx Blockchain, Biconomy, OpenText Cloud Platform. We are consuming IM services from the OpenText Cloud Platform and extending the demo example. Please visit https://github.com/aspiringsecurity/Medical-Counselor/tree/main/dapp_suite/demo-contract-approval-medical-counselor and demo video at https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG (Demo 1 and 3)
-
-Onyx and OCT SSO workflow: REST service calls required to login to OCP and access information management services (IMS) from OpenText. Please visit https://github.com/aspiringsecurity/Medical-Counselor/tree/main/dapp_suite/OCP-sso-workflow-analytics and demo video at https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG (Demo 2)
-
-
 # BlockChain Eco-system and Tools
-
-## zksync Era Paymasters, Wallet and Ledger
-
-zksync Era Paymasters, Wallet and Ledger for for asset management, automation in Medi Assist
-
-We are utilizing zksync Era Paymasters, Wallet and Ledger for asset management, automation and reducing transaction costs with zksync in Medi Assist. This is especially useful for enabling medical eco-system comprising of patients, doctors, counselors, TPAs & insurers, pharma and R&D organizations.
-
-Website for End Users, Civic Bodies: https://sites.google.com/view/zksync-medical-dao/home
-
-zksyc Era Vercel deployment: https://emttr-zksync-deploy.vercel.app/
-
-Features:
-
-Account creation;
-
-ZK Asset transfer at no costs;
-
-Security and asset management;
-
-Creation and management of Escrows, with support for conditions;
-
-Creation and management of Checks;
-
-Creation and management of Offers;
-
-Token creation and management;
-
-NFT creation and management.
-
-- Demos and Vercel deployment link:
-
-Please visit Vercel deployment link at zksyc Era Vercel deployment: https://emttr-zksync-deploy.vercel.app/ and demos at https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG 
-
 
 # Polkadot Web3 Eco-system, Ink Smart Contract Tools and Modules
 
@@ -123,6 +81,45 @@ Medical Counseling, preventive treatment and remediation portal using IPFS and F
 Theta Modules at https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Theta-Modules and https://github.com/aspiringsecurity/Medical-Counselor/tree/main/dapp_suite
 
 3. Multi-Chain: MultiChain Webapp integration with SocialCalc for analysis, tabulation, graphing, charting and visualization.
+
+
+Signature workflow in Medical Documents using Onyx Blockchain, Biconomy, Open Text API: We are building a docusign type workflow for medical documents powered by Vue.js, flask, Onyx Blockchain, Biconomy, Open Text API. We are extending the core signature demo workflow solution.Please visit https://github.com/aspiringsecurity/Medical-Counselor/tree/main/dapp_suite/signature-workflow-opentext-api and demo video at https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG (Demo 1 and 3).
+
+Contract Approval Workflow Application for Medical Counselor: We are developing a contract approval application for Medical Counselors using Onyx Blockchain, Biconomy, OpenText Cloud Platform. We are consuming IM services from the OpenText Cloud Platform and extending the demo example. Please visit https://github.com/aspiringsecurity/Medical-Counselor/tree/main/dapp_suite/demo-contract-approval-medical-counselor and demo video at https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG (Demo 1 and 3)
+
+Onyx and OCT SSO workflow: REST service calls required to login to OCP and access information management services (IMS) from OpenText. Please visit https://github.com/aspiringsecurity/Medical-Counselor/tree/main/dapp_suite/OCP-sso-workflow-analytics and demo video at https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG (Demo 2)
+
+zksync Era Paymasters, Wallet and Ledger
+
+zksync Era Paymasters, Wallet and Ledger for for asset management, automation in Medi Assist
+
+We are utilizing zksync Era Paymasters, Wallet and Ledger for asset management, automation and reducing transaction costs with zksync in Medi Assist. This is especially useful for enabling medical eco-system comprising of patients, doctors, counselors, TPAs & insurers, pharma and R&D organizations.
+
+Website for End Users, Civic Bodies: https://sites.google.com/view/zksync-medical-dao/home
+
+zksyc Era Vercel deployment: https://emttr-zksync-deploy.vercel.app/
+
+Features:
+
+Account creation;
+
+ZK Asset transfer at no costs;
+
+Security and asset management;
+
+Creation and management of Escrows, with support for conditions;
+
+Creation and management of Checks;
+
+Creation and management of Offers;
+
+Token creation and management;
+
+NFT creation and management.
+
+- Demos and Vercel deployment link:
+
+Please visit Vercel deployment link at zksyc Era Vercel deployment: https://emttr-zksync-deploy.vercel.app/ and demos at https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG 
 
 
 
