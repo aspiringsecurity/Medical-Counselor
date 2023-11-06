@@ -1,5 +1,25 @@
 # zk Medical DAO
 
+Medical Counseling, preventive treatment and remediation portal powered by Ink Smart Contracts, Azero.ID, AlphaZero Defi and dev tooling, Polkadot blockchain and Web3 tools. Enable secure data storage; transparency of medical report data.
+
+Automated Workflow for decentralized voting for service providers and DAOs using AZero.ID:
+
+- DAOs create a RFP for providing service or maintenance on the dapp.
+- Doctor can join a RFP by minting an NFT of that RFP. This NFT is created using Ink.
+- Doctors that have a certain RFP's NFT are eligible to create proposals and vote on them.
+- Voting is gasless and the vote is stored on Polkadot with the most recent vote linking to one before using AZero.ID. 
+
+AlphZero based Wallet to interact with the Polkadot/Substrate based blockchains through a browser with features like Account creation;
+
+Security and asset management;
+
+Creation and management of Escrows, with support for conditions;
+
+Creation and management of Checks;
+
+Creation and management of Offers.
+
+
 Medical Counseling, preventive treatment and remediation portal for making personalized medicine more affordable and accessible. We provide secure data storage & transparency of medical counseling report data using Opentext APIs and decentralized data storage powered by Polkadot, Ink Smart Contracts IPFS, Chainlink Blockchain, Orthanc PACS (picture archiving and communication system) using NFT.storage, Chainlink VRF, XDC and Near Protocol. Our service aims at providing secure data storage, transparent data movement and data authenticity.
 
 Our decentralized chat application enables medical counselling in a privacy preserved chat like interface (please visit  https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG )
