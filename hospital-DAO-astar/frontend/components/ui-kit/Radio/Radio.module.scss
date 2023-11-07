@@ -1,0 +1,37 @@
+@use 'styles/colors';
+@use 'styles/typography';
+
+.root {
+  --radio-border-color: #{colors.$grayscale-0};
+  --radio-selected: #{colors.$purple-3};
+  --radio-active: #{colors.$purple-3};
+  --radio-hover: #{colors.$purple-4};
+}
+
+.item {
+  align-items: center;
+  background-color: transparent;
+  border: 0.0625rem solid var(--radio-border-color);
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  height: 1.5rem;
+  justify-content: center;
+  width: 1.5rem;
+
+  &:disabled {
+    --radio-selected: #{colors.$grayscale-0};
+
+    cursor: not-allowed;
+    opacity: 0.3;
+  }
+
+  &:hover:not(:disabled) {
+    --radio-border-color: #{colors.$purple-3};
+  }
+}
+
+.icon {
+  --icon-size: 0.75rem;
+  color: var(--radio-selected);
+}

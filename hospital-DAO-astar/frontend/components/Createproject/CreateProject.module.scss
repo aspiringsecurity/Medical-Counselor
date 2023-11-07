@@ -1,0 +1,132 @@
+@use 'styles/colors';
+
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.content {
+  min-width: 60rem;
+  padding-bottom: 3.375rem;
+
+  > div:not(:last-child) {
+    border-top: 0.0625rem solid #{colors.$grayscale-95};
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: center;
+    padding: 3.375rem 0;
+    width: 100%;
+  }
+}
+
+.cancel-button {
+  align-self: flex-end;
+  margin: 1.5rem 2.5rem 0 0;
+}
+
+.title {
+  padding-bottom: 3.375rem;
+  padding-top: 2.75rem;
+}
+
+.info {
+  gap: 2.875rem;
+}
+
+.members-inputs {
+  align-items: flex-start;
+  display: flex;
+  gap: 4rem;
+}
+
+.members-roles,
+.members-addresses {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.members-inputs-role-root {
+  cursor: default;
+  opacity: 1;
+  pointer-events: none;
+}
+
+.members-button-group {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.members-inputs-role-input {
+  --input-text-disabled: #{colors.$grayscale-0};
+}
+
+.members-add-button {
+  padding: 0;
+}
+
+.proposal-period-container {
+  display: flex;
+  gap: 4rem;
+  margin-bottom: 72px;
+}
+
+.proposal-period-item {
+  display: flex;
+  flex-direction: column;
+  width: calc(50% - 2rem);
+}
+
+.proposal-period-dropdown {
+  align-items: center;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.proposal-period-button {
+  padding: 0;
+}
+
+.create-proposal {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.dropdown-card {
+  padding: 1rem;
+}
+
+.dropdown-radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  min-width: 5.5rem;
+}
+
+.approve-origin-radio-group {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.approve-origin-radio-span {
+  display: flex;
+  gap: 16px;
+}
+
+.approve-origin-radio {
+  align-items: center;
+  background: #{colors.$grayscale-100};
+  border-radius: 8px;
+  display: flex;
+  gap: 40px;
+  padding: 16px 30px 16px 16px;
+}

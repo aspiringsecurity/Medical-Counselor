@@ -1,0 +1,17 @@
+@use 'styles/colors';
+
+.root {
+  --card-bg: #{colors.$grayscale-100};
+  --card-border-radius: 0.5rem;
+  --card-padding: 1.5rem;
+  --card-box-shadow-color: rgba(102, 78, 200, 0.1);
+
+  background-color: var(--card-bg);
+  border-radius: var(--card-border-radius);
+  box-shadow: -0.5625rem 0.75rem 2rem var(--card-box-shadow-color);
+  padding: var(--card-padding);
+}
+
+.dropdown {
+  box-shadow: none;
+}

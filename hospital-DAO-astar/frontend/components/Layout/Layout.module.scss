@@ -1,0 +1,9 @@
+@use 'styles/colors';
+
+.root {
+  --layout-root-bg: #{colors.$grayscale-98};
+
+  background-color: var(--layout-root-bg);
+  grid-area: content;
+  overflow: auto;
+}

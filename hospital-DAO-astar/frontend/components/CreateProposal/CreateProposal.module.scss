@@ -1,0 +1,148 @@
+@use 'styles/typography';
+@use 'styles/colors';
+@use 'styles/mixins';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  height: 100%;
+}
+
+.proposal-title-card {
+  padding: 0.875rem 1.5rem;
+}
+
+.proposal-dropdown-card {
+  padding: 1rem;
+}
+
+.proposal-dropdown-content-span {
+  align-items: center;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.proposal-dropdown-radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  min-width: 5.5rem;
+}
+
+.proposal-type-dropdown {
+  align-items: center;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.proposal-type-button {
+  padding: 0;
+}
+
+.icon {
+  --icon-size: 3rem;
+}
+
+.proposal-type-container {
+  align-items: center;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.proposal-input-card {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  padding: 2.5rem;
+}
+
+.proposal-input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.proposal-input-vote-access {
+  margin-top: 1rem;
+
+  button {
+    border: 0.0625rem solid #{colors.$grayscale-55};
+  }
+}
+.proposal-input-transfer {
+  display: flex;
+  gap: 5rem;
+}
+
+.proposal-input-member {
+  width: 50%;
+}
+
+.member-dropdown-card {
+  padding: 1rem;
+}
+
+.member-dropdown-ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.member-dropdown-button {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0;
+}
+
+.member-dropdown-button-span {
+  align-items: center;
+  display: flex;
+  gap: 0.25rem;
+  justify-content: flex-start;
+  pointer-events: none;
+}
+
+.buttons-container {
+  align-items: center;
+  display: flex;
+  gap: 1.25rem;
+  justify-content: center;
+}
+
+.button-content {
+  align-items: center;
+  display: flex;
+  gap: 0.625rem;
+  justify-content: center;
+}
+
+.title {
+  text-align: center;
+}
+
+.proposal-settings {
+  display: flex;
+  gap: 82px;
+}
+
+.dialog-content {
+  min-width: 50%;
+}
+
+.balance {
+  width: calc(50% - 2.5rem);
+}
+
+.trigger {
+  justify-content: space-between;
+  width: 100%;
+}

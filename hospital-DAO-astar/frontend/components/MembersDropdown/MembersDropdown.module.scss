@@ -1,0 +1,24 @@
+.member-dropdown-card {
+  padding: 1rem;
+}
+
+.member-dropdown-ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.member-dropdown-button {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0;
+}
+
+.member-dropdown-button-span {
+  align-items: center;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-start;
+  pointer-events: none;
+}

@@ -1,0 +1,40 @@
+@use 'styles/colors';
+
+.root {
+  align-items: center;
+  background: #{colors.$grayscale-100};
+  border: 0;
+  border-radius: 4px;
+  color: #{colors.$grayscale-0};
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  height: 28px;
+  justify-content: center;
+  min-width: 28px;
+  padding: 7px 12px 5px;
+
+  &:hover {
+    color: #{colors.$purple-2};
+  }
+}
+
+.with-icon {
+  height: 48px;
+  min-width: 48px;
+}
+
+.active-button {
+  box-shadow: inset 0px 0px 12px rgba(102, 78, 200, 0.2);
+  height: 54px;
+  min-width: 54px;
+}
+
+.icon {
+  --icon-size: 18px;
+}
+
+.active-icon {
+  color: #{colors.$purple-2};
+}

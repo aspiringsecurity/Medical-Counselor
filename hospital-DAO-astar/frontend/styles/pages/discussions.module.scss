@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  gap: 1.25rem;
+  height: 100%;
+  padding: 1.5rem 2.5rem 3.125rem 2.5rem;
+  width: 100%;
+}
+
+.full-width-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 0.625rem;
+}

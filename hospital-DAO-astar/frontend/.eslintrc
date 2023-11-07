@@ -1,0 +1,28 @@
+{
+  "extends": [
+    "airbnb",
+    "airbnb-typescript",
+    "airbnb/hooks",
+    "prettier",
+    "next"
+  ],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "ignorePatterns": ["**/*.config.js", "**/*.setup.js"],
+  "rules": {
+    "react/jsx-props-no-spreading": 0,
+    "prefer-arrow-callback": 0,
+    "react/require-default-props": 0,
+    "import/prefer-default-export": 0,
+    "no-underscore-dangle": 0,
+    "@typescript-eslint/naming-convention": 0,
+    "@typescript-eslint/lines-between-class-members": [
+      "error",
+      "always",
+      {
+        "exceptAfterSingleLine": true
+      }
+    ]
+  }
+}

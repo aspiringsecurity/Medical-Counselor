@@ -1,0 +1,247 @@
+@use 'styles/colors';
+@use 'styles/typography';
+@use 'styles/mixins';
+
+$schema: (
+        'filled-primary': (
+                theme-button-text: #{colors.$grayscale-100},
+                theme-button-text-hover: #{colors.$grayscale-100},
+                theme-button-text-active: #{colors.$grayscale-100},
+                theme-button-bg: #{colors.$purple-1},
+                theme-button-bg-hover: #{colors.$purple-3},
+                theme-button-bg-active: #{colors.$purple-4},
+                theme-button-border-color-hover: #{colors.$purple-3},
+                theme-button-border-color-active: #{colors.$purple-4},
+                theme-button-box-shadow-hover: -0.3125rem 0.3125rem 0.75rem #{colors.$shadow-button-purple}
+        ),
+        'filled-destructive': (
+                theme-button-text: #{colors.$grayscale-100},
+                theme-button-text-hover: #{colors.$grayscale-100},
+                theme-button-text-active: #{colors.$grayscale-100},
+                theme-button-bg: #{colors.$red-1},
+                theme-button-bg-hover: #{colors.$red-1},
+                theme-button-bg-active: #{colors.$red-2},
+                theme-button-border-color-hover: #{colors.$red-1},
+                theme-button-border-color-active: #{colors.$red-2},
+                theme-button-box-shadow-hover: -0.3125rem 0.3125rem 0.75rem #{colors.$shadow-button-destructive}
+        ),
+        'outlined-primary': (
+                theme-button-border-color: #{colors.$purple-3},
+                theme-button-border-color-hover: #{colors.$purple-3},
+                theme-button-border-color-active: #{colors.$purple-4},
+                theme-button-border-active: #{colors.$purple-4},
+                theme-button-text: #{colors.$grayscale-0},
+                theme-button-text-hover: #{colors.$grayscale-100},
+                theme-button-text-active: #{colors.$grayscale-100},
+                theme-button-bg-hover: #{colors.$purple-3},
+                theme-button-bg-active: #{colors.$purple-4},
+                theme-button-box-shadow-hover: -0.3125rem 0.3125rem 0.75rem #{colors.$shadow-button-purple}
+        ),
+        'outlined-destructive': (
+                theme-button-border-active: #{colors.$red-2},
+                theme-button-border-color: #{colors.$red-1},
+                theme-button-border-color-hover: #{colors.$red-1},
+                theme-button-border-color-active: #{colors.$red-2},
+                theme-button-text: #{colors.$grayscale-0},
+                theme-button-text-hover: #{colors.$grayscale-100},
+                theme-button-text-active: #{colors.$grayscale-100},
+                theme-button-bg-hover: #{colors.$red-1},
+                theme-button-bg-active: #{colors.$red-2},
+                theme-button-box-shadow-hover: -0.3125rem 0.3125rem 0.75rem #{colors.$shadow-button-destructive}
+        ),
+        'text-primary': (
+                theme-button-text: #{colors.$grayscale-0},
+                theme-button-text-hover: #{colors.$purple-3},
+                theme-button-text-active: #{colors.$purple-4}
+        ),
+        'text-destructive': (
+                theme-button-text: #{colors.$red-1},
+                theme-button-text-hover: #{colors.$red-1},
+                theme-button-text-active: #{colors.$red-2}
+        ),
+        'icon': (
+                theme-button-text: #{colors.$grayscale-0},
+                theme-button-text-hover: #{colors.$purple-3},
+                theme-button-text-active: #{colors.$purple-4},
+                theme-button-padding: 0,
+        ),
+        'link': (
+                theme-button-text: #{colors.$grayscale-0},
+                theme-button-text-hover: #{colors.$purple-3},
+                theme-button-text-active: #{colors.$purple-4},
+                theme-button-text-decoration: underline
+        ),
+        'ghost': (
+                theme-button-text: #{colors.$grayscale-0},
+                theme-button-text-hover: #{colors.$purple-3},
+                theme-button-text-active: #{colors.$purple-4}
+        ),
+        'nav': (
+                theme-button-text-hover: #{colors.$purple-4},
+        )
+);
+
+.root {
+  @extend %button-2;
+
+  --theme-button-padding: 0.5rem 1.5rem;
+  --theme-button-box-shadow: none;
+  --theme-button-box-shadow-hover: none;
+  --theme-button-box-shadow-active: none;
+  --theme-button-border-radius: 0.25rem;
+  --theme-button-border-width: 0.0625rem;
+  --theme-button-border-color: transparent;
+  --theme-button-border-color-hover: transparent;
+  --theme-button-border-color-active: transparent;
+  --theme-button-shadow-hover: transparent;
+  --theme-button-bg: transparent;
+  --theme-button-bg-active: var(--theme-button-bg);
+  --theme-button-bg-focus: var(--theme-button-bg);
+  --theme-button-height: 2.5rem;
+  align-items: center;
+
+  background-color: var(--theme-button-bg);
+  border: var(--theme-button-border-width) solid var(--theme-button-border-color);
+  border-color: var(--theme-button-border-color);
+  border-radius: var(--theme-button-border-radius);
+  color: var(--theme-button-text);
+  cursor: pointer;
+  display: flex;
+  flex: 0 0 auto;
+  flex-wrap: nowrap;
+  height: var(--theme-button-height);
+  justify-content: center;
+  min-width: var(--theme-button-min-width);
+  overflow: hidden;
+  padding: var(--theme-button-padding);
+  text-decoration: var(--theme-button-text-decoration);
+  text-overflow: ellipsis;
+  transition: all 0.1s linear;
+  user-select: none;
+  white-space: nowrap;
+  width: auto;
+
+  &:hover {
+    background-color: var(--theme-button-bg-hover);
+    border-color: var(--theme-button-border-color-hover);
+    box-shadow: var(--theme-button-box-shadow-hover);
+    color: var(--theme-button-text-hover);
+  }
+
+  &:active {
+    background-color: var(--theme-button-bg-active);
+    border-color: var(--theme-button-border-color-active);
+    box-shadow: var(--theme-button-box-shadow-active);
+    color: var(--theme-button-text-active);
+  }
+
+  &:disabled {
+    opacity: 0.3;
+    pointer-events: none;
+  }
+
+  .content {
+    align-items: center;
+    display: inline-flex;
+    vertical-align: middle;
+  }
+}
+
+.filled {
+  &.primary {
+    @include mixins.color-variants($schema, 'filled-primary');
+  }
+
+  &.destructive {
+    @include mixins.color-variants($schema, 'filled-destructive');
+  }
+}
+
+.outlined {
+  @include mixins.color-variants($schema, 'outlined-primary');
+
+  &.primary {
+    @include mixins.color-variants($schema, 'outlined-primary');
+  }
+
+  &.destructive {
+    @include mixins.color-variants($schema, 'outlined-destructive');
+  }
+}
+
+.ghost {
+  @include mixins.color-variants($schema, 'ghost');
+}
+
+.nav {
+  @include mixins.color-variants($schema, 'nav');
+
+  &[data-active=true] {
+    box-shadow: inset 0px 0px 12px rgba(102, 78, 200, 0.2);
+  }
+}
+
+.text {
+  @include mixins.color-variants($schema, 'text-primary');
+
+  &.primary {
+    @include mixins.color-variants($schema, 'text-primary');
+  }
+
+  &.destructive {
+    @include mixins.color-variants($schema, 'text-destructive');
+  }
+}
+
+.link {
+  @include mixins.color-variants($schema, 'link');
+}
+
+.icon {
+  @include mixins.color-variants($schema, 'icon');
+}
+
+.button-icon-lg {
+  --theme-button-icon-width: 2.75rem;
+  --theme-button-icon-height: 2.75rem;
+  --theme-button-padding: 0;
+  height: var(--theme-button-icon-height);
+
+  width: var(--theme-button-icon-width);
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.text-lg {
+  @extend %button-1;
+}
+
+.text-md {
+  @extend %button-1;
+}
+
+.text-sm {
+  @extend %button-2;
+}
+
+.button-lg {
+  --theme-button-height: 3.5rem;
+  --theme-button-min-width: 3.5rem;
+}
+
+.button-md {
+  --theme-button-height: 2.5rem;
+  --theme-button-min-width: 2.5rem;
+}
+
+.button-sm {
+  --theme-button-height: 2rem;
+  --theme-button-min-width: 2rem;
+}
+
+.button-xs {
+  --theme-button-height: 1.5rem;
+  --theme-button-min-width: 1.5rem;
+}

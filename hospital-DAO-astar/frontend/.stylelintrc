@@ -1,0 +1,15 @@
+{
+  "extends": "stylelint-config-recommended-scss",
+  "plugins": [
+    "stylelint-order",
+    "stylelint-scss"
+  ],
+  "rules": {
+    "order/properties-alphabetical-order": true,
+    "scss/at-rule-no-unknown": null,
+    "scss/at-import-no-partial-leading-underscore": null,
+    "selector-class-pattern": "^[A-Za-z0-9_-]+$",
+    "selector-max-id": 10,
+    "max-nesting-depth": 5
+  }
+}

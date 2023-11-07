@@ -1,0 +1,81 @@
+@use "styles/typography";
+@use "styles/colors";
+
+.root {
+  @extend %caption-2;
+  align-items: center;
+  background-color: var(--theme-chip-background-color);
+  border: 0.4px solid var(--theme-chip-border-color);
+  border-radius: var(--theme-chip-border-radius);
+  color: var(--theme-chip-text-color);
+  display: inline-flex;
+  justify-content: center;
+  padding: var(--theme-chip-padding);
+}
+
+.filter {
+  --theme-chip-border-radius: 100px;
+  --theme-chip-padding: 0.1875rem 12px;
+}
+
+.group {
+  --theme-chip-border-radius: 4px;
+  --theme-chip-padding: 4px 12px;
+}
+
+.status {
+  --theme-chip-border-radius: 4px;
+  --theme-chip-padding: 4px 12px;
+}
+
+.task {
+  --theme-chip-border-radius: 100px;
+  --theme-chip-padding: 0.1875rem 12px;
+}
+
+.proposal {
+  --theme-chip-border-radius: 4px;
+  --theme-chip-padding: 4px 12px;
+}
+
+.color-default {
+  --theme-chip-border-color: #{colors.$purple-5};
+  --theme-chip-background-color: transparent;
+}
+
+.color-active {
+  --theme-chip-border-color: transparent;
+  --theme-chip-background-color: rgba(119, 96, 210, 0.3);
+}
+
+.color-orange {
+  --theme-chip-border-color: #{colors.$orange-1};
+  --theme-chip-background-color: rgba(255, 81, 47, 0.1);
+}
+
+.color-green {
+  --theme-chip-border-color: #{colors.$green-1};
+  --theme-chip-background-color: rgba(86, 171, 47, 0.1);
+}
+
+.color-dark-green {
+  --theme-chip-border-color: #{colors.$green-1};
+  --theme-chip-background-color: #{colors.$green-1};
+  --theme-chip-text-color: #{colors.$grayscale-100};
+}
+
+.color-dark-blue {
+  --theme-chip-border-color: #{colors.$blue-1};
+  --theme-chip-background-color: #{colors.$blue-1};
+  --theme-chip-text-color: #{colors.$grayscale-100};
+}
+
+.color-blue {
+  --theme-chip-border-color: #{colors.$blue-1};
+  --theme-chip-background-color: rgba(64, 94, 201, 0.1);
+}
+
+.color-red {
+  --theme-chip-border-color: #{colors.$red-1};
+  --theme-chip-background-color: rgba(255, 26, 26, 0.1);
+}

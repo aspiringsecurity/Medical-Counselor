@@ -1,0 +1,17 @@
+@use 'styles/colors';
+
+.root {
+  --dropdown-box-shadow-color: rgba(102, 78, 200, 0.1);
+
+  align-items: stretch;
+  background-color: colors.$white;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 2rem var(--dropdown-box-shadow-color);
+  display: none;
+  flex-flow: column nowrap;
+  z-index: 10;
+
+  &.show {
+    display: flex;
+  }
+}

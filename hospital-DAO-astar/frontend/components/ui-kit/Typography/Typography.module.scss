@@ -1,0 +1,134 @@
+@import 'styles/typography';
+
+.root {
+  margin: 0;
+  padding: 0;
+}
+
+.display1 {
+  @extend %display-1;
+}
+
+.h1 {
+  @extend %heading-1;
+}
+
+.h2 {
+  @extend %heading-2;
+}
+
+.h3 {
+  @extend %heading-3;
+}
+
+.title1 {
+  @extend %title-1;
+}
+
+.title2 {
+  @extend %title-2;
+}
+
+.title3 {
+  @extend %title-3;
+}
+
+.title4 {
+  @extend %title-4;
+}
+
+.title5 {
+  @extend %title-5;
+}
+
+.title6 {
+  @extend %title-6;
+}
+
+.title7 {
+  @extend %title-7;
+}
+
+.title8 {
+  @extend %title-8;
+}
+
+.paragraph1 {
+  @extend %paragraph-1;
+}
+
+.paragraph2 {
+  @extend %paragraph-2;
+}
+
+.body1 {
+  @extend %body-1;
+}
+
+.body2 {
+  @extend %body-2;
+}
+
+.label1 {
+  @extend %label-1;
+}
+
+.label2 {
+  @extend %label-2;
+}
+
+.label3 {
+  @extend %label-3;
+}
+
+.caption1 {
+  @extend %caption-1;
+}
+
+.caption2 {
+  @extend %caption-2;
+}
+
+.caption3 {
+  @extend %caption-3;
+}
+
+.value1 {
+  @extend %value-1;
+}
+
+.value2 {
+  @extend %value-2;
+}
+
+.value3 {
+  @extend %value-3;
+}
+
+.value4 {
+  @extend %value-4;
+}
+
+.value5 {
+  @extend %value-5;
+}
+
+.value6 {
+  @extend %value-6;
+}
+
+.value7 {
+  @extend %value-7;
+}
+
+.value8 {
+  @extend %value-8;
+}
+
+.button1 {
+  @extend %button-1;
+}
+
+.button2 {
+  @extend %button-2;
+}

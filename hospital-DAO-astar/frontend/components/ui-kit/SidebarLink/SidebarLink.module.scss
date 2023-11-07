@@ -1,0 +1,29 @@
+@use "styles/colors";
+
+.root {
+  --theme-link-bg: #{colors.$grayscale-98};
+  align-items: center;
+  background-color: var(--theme-link-bg);
+  border: 0;
+  border-radius: 4px;
+  color: #{colors.$grayscale-0};
+  display: inline-flex;
+  gap: var(--theme-link-gap);
+  height: 44px;
+  justify-content: center;
+  padding: var(--theme-link-padding);
+  width: 44px;
+
+  &:hover {
+    --theme-link-bg: #{colors.$grayscale-90};
+  }
+
+  &:active {
+    --theme-link-bg: #{colors.$grayscale-80};
+  }
+}
+
+.active {
+  --theme-link-bg: #{colors.$grayscale-98};
+  box-shadow: inset 0 0 12px rgba(102, 78, 200, 0.2);
+}

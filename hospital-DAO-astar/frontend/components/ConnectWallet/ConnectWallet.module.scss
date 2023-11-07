@@ -1,0 +1,85 @@
+@use 'styles/colors';
+@use 'styles/typography';
+
+.dropdown-title {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dropdown-title-text {
+  color: #{colors.$grayscale-55};
+}
+
+.dropdown-content {
+
+  gap: 8px;
+}
+
+.logo {
+  align-items: center;
+  display: flex;
+  height: 1.5rem;
+  justify-content: center;
+  pointer-events: none;
+  position: relative;
+  width: 1.5rem;
+}
+
+.button {
+  gap: 0.5rem;
+  min-width: 8.25rem;
+  padding: 0.5rem;
+}
+
+.wallets {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.wallets-content {
+  padding: 1rem 0;
+}
+
+.trigger {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.wallet-button {
+  align-items: center;
+  gap: 1rem;
+  justify-content: flex-start;
+  padding: 0 1.5rem;
+
+  > * {
+    pointer-events: none;
+  }
+}
+
+.disconnect-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  justify-content: space-between;
+  cursor: pointer;
+  width: 100%;
+  padding: 0 8px;
+  height: 100%;
+
+  color: #{colors.$red-2};
+
+  &:hover {
+    color: #{colors.$red-1};
+    background-color: #{colors.$grayscale-100};
+  }
+}
+
+.disconnect-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+}

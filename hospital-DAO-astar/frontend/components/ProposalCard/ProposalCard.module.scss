@@ -1,0 +1,163 @@
+@use 'styles/colors';
+
+.card {
+  padding: 0;
+}
+
+.header {
+  align-items: center;
+  border-bottom: 1px solid #{colors.$grayscale-30};
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 20px;
+}
+
+.proposal-icon {
+  --icon-size: 40px;
+}
+
+.title-container {
+  align-items: center;
+  display: flex;
+  gap: 12px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.description-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px 20px;
+}
+
+.content-header {
+  display: flex;
+  gap: 6px;
+}
+
+.dao-name-container {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+}
+
+.avatar {
+  height: 24px;
+  width: 24px;
+}
+
+.status-container {
+  align-items: center;
+  display: flex;
+  gap: 4px;
+}
+
+.status-icon {
+  height: 8px;
+  width: 8px;
+}
+
+.icon-Active {
+  color: #{colors.$blue-1};
+}
+.icon-Defeated {
+  color: #{colors.$red-1};
+}
+.icon-Completed {
+  color: #{colors.$green-1};
+}
+
+.countdown {
+  align-items: center;
+  display: flex;
+  gap: 4px;
+}
+
+.proposal-transfer-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.proposal-transfer-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.proposal-member-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+}
+
+.proposal-item {
+  align-items: center;
+  display: flex;
+  gap: 6px;
+}
+
+.proposal-bottom-container {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+}
+
+.vertical-break {
+  background: #{colors.$purple-5};
+  width: 0.0625rem;
+}
+
+.button-vote {
+  padding: 0;
+  width: 2.5rem;
+}
+
+.proposal-vote-buttons {
+  align-items: stretch;
+  border-color: #{colors.$purple-5};
+  border-radius: 1.5rem 0 0 0;
+  border-style: solid;
+  border-width: 0.0625rem 0 0 0.0625rem;
+  display: flex;
+  gap: 1.25rem;
+  justify-content: space-between;
+  margin-right: -1.2rem;
+  padding: 0.875rem 2rem;
+}
+
+.proposal-vote-button-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.buttons-container {
+  display: flex;
+  gap: 20px;
+}
+
+.vote-access {
+  background-color: #{colors.$purple-1};
+  color: white;
+}
+
+.top-right-container {
+  align-items: center;
+  display: flex;
+  gap: 15px;
+}

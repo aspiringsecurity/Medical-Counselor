@@ -1,0 +1,42 @@
+@use 'variables';
+@use "libs";
+
+html,
+body {
+  font-family: variables.$main-font;
+  font-size: variables.$base-font-size;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#__next {
+  display: grid;
+  grid-template-areas:
+    'sidebar header'
+    'sidebar content';
+  grid-template-columns: min-content 1fr;
+  grid-template-rows: min-content 1fr;
+  height: 100vh;
+  overflow: hidden;
+  width: 100vw;
+}
+
+* {
+  box-sizing: border-box;
+}

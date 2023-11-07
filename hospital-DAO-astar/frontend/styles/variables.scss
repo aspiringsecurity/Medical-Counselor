@@ -1,0 +1,15 @@
+@use 'fonts';
+@use 'colors';
+
+// Fonts
+$base-font-size: 16px;
+$main-font: fonts.$avenir-font;
+
+// Sizes
+$header-height: 64px;
+$subheader-top-container-height: 100px;
+$subheader-bottom-container-height: 80px;
+$sidebar-width: 64px;
+
+// Colors
+$main-color: colors.$grayscale-0;

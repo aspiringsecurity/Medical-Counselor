@@ -1,0 +1,63 @@
+@use 'styles/colors';
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  max-height: 100%;
+}
+
+.title {
+  align-items: center;
+  display: flex;
+  padding: 1rem 1.5rem;
+}
+
+.members {
+  overflow-y: auto;
+  flex-grow: 1;
+}
+
+.memberinfo {
+  display: flex;
+}
+
+.avatar {
+  height: 80px;
+  position: relative;
+  width: 65px;
+  margin-right: 0.5rem;
+
+  embed {
+    width: 65px;
+    height: 80px;
+    position: absolute;
+  }
+}
+
+.member {
+  border-top: 0.0625rem solid #{colors.$grayscale-95};
+  padding: 1rem 1.5rem;
+}
+
+.member-name {
+  padding-left: 0.5rem !important;
+}
+
+.member-address {
+  align-items: center;
+  display: flex;
+
+  padding-left: 0.5rem;
+}
+
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+
+  div {
+    white-space: nowrap;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+  }
+}

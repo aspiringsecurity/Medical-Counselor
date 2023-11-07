@@ -1,0 +1,51 @@
+@use 'styles/variables';
+@use 'styles/colors';
+@use 'styles/typography';
+
+.root {
+  --header-padding-left: 1.25rem;
+  --header-padding-right: 1.25rem;
+  --header-box-shadow-color: rgba(102, 78, 200, 0.2);
+
+  background-color: #{colors.$grayscale-100};
+  box-shadow: 0 -0.3125rem 1.875rem var(--header-box-shadow-color);
+  display: flex;
+  flex-direction: column;
+  grid-area: header;
+  position: relative;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  height: variables.$header-height;
+  justify-content: space-between;
+  padding-left: var(--header-padding-left);
+  padding-right: var(--header-padding-right);
+  width: 100%;
+}
+
+.leftContainer {
+  align-items: center;
+  display: flex;
+  min-width: 20rem;
+
+  img {
+    height: 64px;
+    width: auto;
+  }
+}
+
+.rightContainer {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+  button:not(:first-child) {
+    margin-left: 1rem;
+  }
+}
+
+.account-button {
+  @extend %body-1;
+}

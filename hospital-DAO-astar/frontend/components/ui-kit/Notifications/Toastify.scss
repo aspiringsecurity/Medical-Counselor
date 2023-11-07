@@ -1,0 +1,32 @@
+.Toastify__toast {
+  border-radius: 0.5rem;
+  padding: 1.375rem 2.5rem 1rem 1.25rem;
+}
+
+.Toastify__toast-body {
+  align-items: unset;
+  padding: 0;
+}
+
+.Toastify__toast-container {
+  max-width: 25rem;
+  pointer-events: none;
+  width: auto;
+}
+
+.Toastify__toast-container * {
+  pointer-events: auto;
+}
+
+.Toastify__toast--info {
+  box-shadow: -0.5625rem 0.75rem 2rem rgba(64, 94, 201, 0.15);
+}
+.Toastify__toast--success {
+  box-shadow: -0.5625rem 0.75rem 2rem rgba(86, 171, 47, 0.15);
+}
+.Toastify__toast--warning {
+  box-shadow: -0.5625rem 0.75rem 2rem rgba(240, 152, 25, 0.15);
+}
+.Toastify__toast--error {
+  box-shadow: -0.5625rem 0.75rem 2rem rgba(255, 26, 26, 0.15);
+}

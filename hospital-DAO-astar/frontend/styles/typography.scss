@@ -1,0 +1,266 @@
+@use 'fonts';
+@use 'mixins';
+
+%display-1 {
+  @include mixins.typography(
+    $font-size: 3.375rem,
+    $font-weight: 600,
+    $line-height: 5rem
+  );
+}
+
+%heading-1 {
+  @include mixins.typography(
+    $font-size: 3rem,
+    $font-weight: 600,
+    $line-height: 4rem
+  );
+}
+
+%heading-2 {
+  @include mixins.typography(
+    $font-size: 2.5rem,
+    $font-weight: 600,
+    $line-height: 3.25rem
+  );
+}
+
+%heading-3 {
+  @include mixins.typography(
+    $font-size: 2rem,
+    $font-weight: 600,
+    $line-height: 3rem
+  );
+}
+
+%title-1 {
+  @include mixins.typography(
+    $font-size: 1.75rem,
+    $font-weight: 700,
+    $line-height: 2.25rem
+  );
+}
+
+%title-2 {
+  @include mixins.typography(
+    $font-size: 1.25rem,
+    $font-weight: 700,
+    $line-height: 2rem
+  );
+}
+
+%title-3 {
+  @include mixins.typography(
+    $font-size: 1.125rem,
+    $font-weight: 700,
+    $line-height: 1.75rem
+  );
+}
+
+%title-4 {
+  @include mixins.typography(
+    $font-size: 1rem,
+    $font-weight: 700,
+    $line-height: 1.75rem
+  );
+}
+
+%title-5 {
+  @include mixins.typography(
+    $font-size: 0.875rem,
+    $font-weight: 700,
+    $line-height: 1.5rem
+  );
+}
+
+%title-6 {
+  @include mixins.typography(
+    $font-size: 0.8125rem,
+    $font-weight: 700,
+    $line-height: 1.25rem
+  );
+}
+
+%title-7 {
+  @include mixins.typography(
+    $font-size: 0.75rem,
+    $font-weight: 700,
+    $line-height: 1rem
+  );
+}
+
+%title-8 {
+  @include mixins.typography(
+    $font-size: 0.6875rem,
+    $font-weight: 600,
+    $line-height: 1rem
+  );
+}
+
+%paragraph-1 {
+  @include mixins.typography(
+    $font-size: 1.75rem,
+    $font-weight: 500,
+    $line-height: 2.5rem
+  );
+}
+
+%paragraph-2 {
+  @include mixins.typography(
+    $font-size: 1.25rem,
+    $font-weight: 500,
+    $line-height: 2rem
+  );
+}
+
+%body-1 {
+  @include mixins.typography(
+    $font-size: 1rem,
+    $font-weight: 500,
+    $line-height: 1.75rem
+  );
+}
+
+%body-2 {
+  @include mixins.typography(
+    $font-size: 0.875rem,
+    $font-weight: 500,
+    $line-height: 1.5rem
+  );
+}
+
+%label-1 {
+  @include mixins.typography(
+    $font-size: 0.875rem,
+    $font-weight: 600,
+    $line-height: 1.5rem
+  );
+}
+
+%label-2 {
+  @include mixins.typography(
+    $font-size: 0.8125rem,
+    $font-weight: 600,
+    $line-height: 1.25rem
+  );
+}
+
+%label-3 {
+  @include mixins.typography(
+    $font-size: 0.75rem,
+    $font-weight: 600,
+    $line-height: 1rem
+  );
+}
+
+%caption-1 {
+  @include mixins.typography(
+    $font-size: 0.8125rem,
+    $font-weight: 500,
+    $line-height: 1.25rem
+  );
+}
+
+%caption-2 {
+  @include mixins.typography(
+    $font-size: 0.75rem,
+    $font-weight: 500,
+    $line-height: 1rem
+  );
+}
+
+%caption-3 {
+  @include mixins.typography(
+    $font-size: 0.6875rem,
+    $font-weight: 500,
+    $line-height: 1rem
+  );
+}
+
+%value-1 {
+  @include mixins.typography(
+    $font-size: 2.25rem,
+    $font-weight: 700,
+    $line-height: 3rem
+  );
+}
+
+%value-2 {
+  @include mixins.typography(
+    $font-size: 1.75rem,
+    $font-weight: 700,
+    $line-height: 2rem
+  );
+}
+
+%value-3 {
+  @include mixins.typography(
+    $font-size: 1.25rem,
+    $font-weight: 700,
+    $line-height: 1.75rem
+  );
+}
+
+%value-4 {
+  @include mixins.typography(
+    $font-size: 1.125rem,
+    $font-weight: 700,
+    $line-height: 1.75rem
+  );
+}
+
+%value-5 {
+  @include mixins.typography(
+    $font-size: 1rem,
+    $font-weight: 700,
+    $line-height: 1.5rem
+  );
+}
+
+%value-6 {
+  @include mixins.typography(
+    $font-size: 0.875rem,
+    $font-weight: 700,
+    $line-height: 1.5rem
+  );
+}
+
+%value-7 {
+  @include mixins.typography(
+    $font-size: 0.8125rem,
+    $font-weight: 700,
+    $line-height: 1.25rem
+  );
+}
+
+%value-8 {
+  @include mixins.typography(
+    $font-size: 0.75rem,
+    $font-weight: 700,
+    $line-height: 1rem
+  );
+}
+
+%button-1 {
+  @include mixins.typography(
+    $font-size: 0.875rem,
+    $font-weight: 700,
+    $line-height: 1.5rem
+  );
+}
+
+%button-2 {
+  @include mixins.typography(
+    $font-size: 0.8125rem,
+    $font-weight: 700,
+    $line-height: 1.25rem
+  );
+}
+
+%button-3 {
+  @include mixins.typography(
+    $font-size: 0.75rem,
+    $font-weight: 700,
+    $line-height: 1rem
+  );
+}
