@@ -7,7 +7,9 @@ Automated Workflow for decentralized voting for service providers and DAOs using
 - DAOs create a RFP for providing service or maintenance on the dapp.
 - Doctor can join a RFP by minting an NFT of that RFP. This NFT is created using Ink.
 - Doctors that have a certain RFP's NFT are eligible to create proposals and vote on them.
-- Voting is gasless and the vote is stored on Polkadot with the most recent vote linking to one before using AZero.ID. 
+- Voting is gasless and the vote is stored on Polkadot with the most recent vote linking to one before using AZero.ID.
+
+Further, we are developing DAO tooling for hospitals. Please visit https://github.com/aspiringsecurity/Medical-Counselor/tree/main/hospital-DAO-astar#dao-tools-for-hospitals-using-ink-smart-contracts
 
 AlphZero based Wallet to interact with the Polkadot/Substrate based blockchains through a browser with features like Account creation;
 
