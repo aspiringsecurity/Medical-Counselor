@@ -63,6 +63,10 @@ Demo available at https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc
 
 Experiments with pallet assets chain extension: https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Medical-Radiology-Data-transparency/pallet-assets-chain-extension
 
+## Deployment
+
+shibuya：0xD688acB676771F6aA01114c78A39E594564d3944 https://shibuya.subscan.io/account/0xD688acB676771F6aA01114c78A39E594564d3944
+
 
 ## Chainlink Blockchain with Lens Protocol for off-chain, on-chain data analytics, Magic SDK for Medication Log dapp
 
