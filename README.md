@@ -65,9 +65,7 @@ Experiments with pallet assets chain extension: https://github.com/aspiringsecur
 
 ## Deployment
 
-shibuya：0xD688acB676771F6aA01114c78A39E594564d3944 https://shibuya.subscan.io/account/0xD688acB676771F6aA01114c78A39E594564d3944
-
-goerli：0xE8E9a8b52Db9C8afEF0e2F8DC288CF2B9DF27Cb3 https://goerli.etherscan.io/address/0xE8E9a8b52Db9C8afEF0e2F8DC288CF2B9DF27Cb3 https://goerli.etherscan.io/address/0xE8E9a8b52Db9C8afEF0e2F8DC288CF2B9DF27Cb3#code
+shibuya：0xD688acB676771F6aA01114c78A39E594564d3944
 
 
 ## Chainlink Blockchain with Lens Protocol for off-chain, on-chain data analytics, Magic SDK for Medication Log dapp
