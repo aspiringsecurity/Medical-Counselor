@@ -126,7 +126,7 @@ We are utilizing DID Wallet, zksync Era Paymasters and Ledger for asset manageme
 
 Website for End Users, Civic Bodies: https://sites.google.com/view/zksync-medical-dao/home
 
-DID, zksyc Era Vercel deployment: https://emttr-zksync-deploy.vercel.app/
+DID, zksyc Era Vercel deployment: https://medi-assist.vercel.app/
 
 Features:
 
@@ -148,7 +148,7 @@ NFT creation and management.
 
 - Demos and Vercel deployment link:
 
-Please visit Vercel deployment link at zksyc Era Vercel deployment: https://emttr-zksync-deploy.vercel.app/ and demos at https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG 
+Please visit Vercel deployment link at zksyc Era Vercel deployment: https://medi-assist.vercel.app/ and demos at https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG 
 
 
 
