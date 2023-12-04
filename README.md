@@ -1,6 +1,6 @@
-# zk Medical DAO
+# Medi Assist
 
-Medical Counseling, preventive treatment and remediation portal powered by Ink Smart Contracts, Azero.ID, AlphaZero Defi and dev tooling, Polkadot blockchain and Web3 tools. Enable secure data storage; transparency of medical report data.
+Medical Counseling, preventive treatment and remediation portal powered by TBD, DID, Trinsic, Ontology, Azero.ID, Polygon ID Defi and dev tooling, TBD blockchain and Web3 tools. Enable secure data storage; transparency of medical report data.
 
 Automated Workflow for decentralized voting for service providers and DAOs using AZero.ID:
 
@@ -9,9 +9,9 @@ Automated Workflow for decentralized voting for service providers and DAOs using
 - Doctors that have a certain RFP's NFT are eligible to create proposals and vote on them.
 - Voting is gasless and the vote is stored on Polkadot with the most recent vote linking to one before using AZero.ID.
 
-Further, we are developing DAO tooling for hospitals. Please visit https://github.com/aspiringsecurity/Medical-Counselor/tree/main/hospital-DAO-astar#dao-tools-for-hospitals-using-ink-smart-contracts
+Further, we are developing TBD DAO tooling for hospitals. Please visit https://github.com/aspiringsecurity/Medical-Counselor/tree/main/hospital-DAO-astar#dao-tools-for-hospitals-using-ink-smart-contracts
 
-AlphZero based Wallet to interact with the Polkadot/Substrate based blockchains through a browser with features like Account creation;
+DID based Wallet to interact with the Polkadot/Substrate based blockchains through a browser with features like Account creation;
 
 Security and asset management;
 
@@ -26,7 +26,7 @@ Medical Counseling, preventive treatment and remediation portal for making perso
 
 Our decentralized chat application enables medical counselling in a privacy preserved chat like interface (please visit  https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG )
 
-Ink Smart Contracts and Polkadot User Information website: https://sites.google.com/view/electronichealthrecords/home
+TBD, DID, Trinsic, Ontology and Polygon ID User Information website: https://sites.google.com/view/electronichealthrecords/home
 
 Pitch Deck: https://drive.google.com/drive/u/3/folders/19z-8VC09WmhdMM5XsrCFwYgkhwbSfXKt
 
@@ -43,23 +43,23 @@ Data Analytics : With the help of computer aided detection and machine learning 
 
 A greater and more seamless flow of information within a digital health care infrastructure, created by electronic health records (EHRs), encompasses and leverages digital progress and can transform the way care is delivered and compensated. EHRs helps in improved care coordination. EHRs helps in making health care ecosystem proactive, accessible and authentic. EHRs with the help of computer aided detection will help in early prediction of diseases.
 
-We are developing a technical solution using  decentralized data storage powered by Onyx and Biconomy blockchain, zksync Era, IPFS, Chainlink Blockchain and Lens Protocol, Orthanc PACS (picture archiving and communication system) using NFT.storage, Chainlink VRF, Magic SDK and Visa payments infrastructure, Filecoin/IPFS blockchain developer library along with Chainlink automation and Flow, XDC blockchain, Space and Time network, Truflation, open source spreadsheet engine to enable secure data storage, transparent data movement and data authenticity and borrowing funds for drug design and development using collaterals on Chainlink network Biconomy and Onyx blockchain.
+We are developing a technical solution using  decentralized data storage powered by TBD, DID, Trinsic, Ontology, Polygon ID and Biconomy blockchain, zksync Era, IPFS, Chainlink Blockchain and Lens Protocol, Orthanc PACS (picture archiving and communication system) using NFT.storage, Chainlink VRF, Magic SDK and Visa payments infrastructure, Filecoin/IPFS blockchain developer library along with Chainlink automation and Flow, XDC blockchain, Space and Time network, Truflation, open source spreadsheet engine to enable secure data storage, transparent data movement and data authenticity and borrowing funds for drug design and development using collaterals on Chainlink network Biconomy and Onyx blockchain.
 
 # BlockChain Eco-system and Tools
 
-# Polkadot Web3 Eco-system, Ink Smart Contract Tools and Modules
+# TBD, DID, Trinsic, Ontology, Polygon ID Web3 Eco-system, Ink Smart Contract Tools and Modules
 
-Polkadot - Polkadot Analytics and Visualization Tool: https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Medical-Radiology-Data-transparency/dot-analytics%20tooling
+TBD - TBD Analytics and Visualization Tool: https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Medical-Radiology-Data-transparency/dot-analytics%20tooling
 Please visit demo at https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG
 
-Dapp suite and Subsocial Plugins: Medical Invoice, Medical Suite and Dose Schedule, Medication Log: please visit https://github.com/aspiringsecurity/Medical-Counselor/tree/main/dapp_suite
+Trinsic Dapp suite and Subsocial Plugins: Medical Invoice, Medical Suite and Dose Schedule, Medication Log: please visit https://github.com/aspiringsecurity/Medical-Counselor/tree/main/dapp_suite
 Please visit demo at https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG
+
+Ontology WASM smart contract for decentralized Medical Counseling: We are developing smart contracts in wasm ink for decentralized Medical Counseling, deploying on Shibuya, extending UI interaction with astar.js. Please visit https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Medical-Radiology-Data-transparency/wasm-medical-dao
+Demo available at https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG
 
 Ink NFT viewer for viewing the NFTs of NFC tags of medical devices and medical service personnel: We are extending the Ink NFT viewer dapp for viewing the NFTs generated for the NFC tags of medical devices and service repair personnel. Please visit https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Medical-Radiology-Data-transparency/ink-nft-viewer
 Demo link: https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG
-
-WASM smart contract for decentralized Medical Counseling: We are developing smart contracts in wasm ink for decentralized Medical Counseling, deploying on Shibuya, extending UI interaction with astar.js. Please visit https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Medical-Radiology-Data-transparency/wasm-medical-dao
-Demo available at https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG
 
 Experiments with pallet assets chain extension: https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Medical-Radiology-Data-transparency/pallet-assets-chain-extension
 
@@ -115,15 +115,15 @@ Contract Approval Workflow Application for Medical Counselor: We are developing 
 
 Onyx and OCT SSO workflow: REST service calls required to login to OCP and access information management services (IMS) from OpenText. Please visit https://github.com/aspiringsecurity/Medical-Counselor/tree/main/dapp_suite/OCP-sso-workflow-analytics and demo video at https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG (Demo 2)
 
-zksync Era Paymasters, Wallet and Ledger
+DID Wallet, zksync Era Paymasters and Ledger
 
-zksync Era Paymasters, Wallet and Ledger for for asset management, automation in Medi Assist
+DID Wallet and Ledger for for asset management, zksync Era Paymasters, automation in Medi Assist
 
-We are utilizing zksync Era Paymasters, Wallet and Ledger for asset management, automation and reducing transaction costs with zksync in Medi Assist. This is especially useful for enabling medical eco-system comprising of patients, doctors, counselors, TPAs & insurers, pharma and R&D organizations.
+We are utilizing DID Wallet, zksync Era Paymasters and Ledger for asset management, automation and reducing transaction costs with zksync in Medi Assist. This is especially useful for enabling medical eco-system comprising of patients, doctors, counselors, TPAs & insurers, pharma and R&D organizations.
 
 Website for End Users, Civic Bodies: https://sites.google.com/view/zksync-medical-dao/home
 
-zksyc Era Vercel deployment: https://emttr-zksync-deploy.vercel.app/
+DID, zksyc Era Vercel deployment: https://emttr-zksync-deploy.vercel.app/
 
 Features:
 
