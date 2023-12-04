@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pulumi", "Pulumi", "{564E58CE-8C28-4C83-B5D3-36B6EF9DE189}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectDemoIaC", "iac\ConnectDemoIaC.csproj", "{8F10C77B-9FCB-42B7-9873-4F4E72E8ED97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PearBnB", "pearbnb\service\PearBnB.csproj", "{8EA0F300-A0F3-42BD-B28A-77F66E7B5576}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PocketRide", "pocketride\service\PocketRide.csproj", "{75802762-D3E2-4E76-9883-FB5B4EE90416}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoShared", "demoshared\DemoShared.csproj", "{8FED8CB0-CF8B-469E-8A10-761731CB4588}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F10C77B-9FCB-42B7-9873-4F4E72E8ED97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F10C77B-9FCB-42B7-9873-4F4E72E8ED97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F10C77B-9FCB-42B7-9873-4F4E72E8ED97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F10C77B-9FCB-42B7-9873-4F4E72E8ED97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EA0F300-A0F3-42BD-B28A-77F66E7B5576}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EA0F300-A0F3-42BD-B28A-77F66E7B5576}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EA0F300-A0F3-42BD-B28A-77F66E7B5576}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EA0F300-A0F3-42BD-B28A-77F66E7B5576}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75802762-D3E2-4E76-9883-FB5B4EE90416}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75802762-D3E2-4E76-9883-FB5B4EE90416}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75802762-D3E2-4E76-9883-FB5B4EE90416}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75802762-D3E2-4E76-9883-FB5B4EE90416}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FED8CB0-CF8B-469E-8A10-761731CB4588}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FED8CB0-CF8B-469E-8A10-761731CB4588}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FED8CB0-CF8B-469E-8A10-761731CB4588}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FED8CB0-CF8B-469E-8A10-761731CB4588}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8F10C77B-9FCB-42B7-9873-4F4E72E8ED97} = {564E58CE-8C28-4C83-B5D3-36B6EF9DE189}
+	EndGlobalSection
+EndGlobal

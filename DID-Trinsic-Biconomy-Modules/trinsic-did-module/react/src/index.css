@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*:focus {
+  outline: none;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+}
+
+input {
+  outline: none;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+}
+
+.box-shadow {
+  box-shadow: 0px 5.66293px 28.3147px rgba(24, 39, 75, 0.07);
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+  transition:
+    background-color 600000s 0s,
+    color 600000s 0s;
+}
+
+.box-shadow {
+  box-shadow: 0px 5.66293px 28.3147px rgba(24, 39, 75, 0.07);
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+  transition:
+    background-color 600000s 0s,
+    color 600000s 0s;
+}
+
+html,
+body {
+  -webkit-overflow-scrolling: touch !important;
+  overflow: auto !important;
+}
+
+html,
+body {
+  -webkit-overflow-scrolling: touch !important;
+  overflow: auto !important;
+}
+
+body {
+  @apply bg-none;
+}
+
+.pocketrides-bg {
+  background:
+    linear-gradient(0deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%),
+    url(/images/pocketrides.jpg),
+    lightgray 50% / cover no-repeat;
+}
+
+.pearbnb-bg {
+  background:
+    linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%),
+    url(/images/pearbnb.jpg),
+    lightgray 50% / cover no-repeat;
+}
+
+@layer utilities {
+  .scrollbar::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+  }
+
+  .scrollbar::-webkit-scrollbar-track {
+    opacity: 0;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb {
+    background: #e5e7eb;
+    border-radius: 100vh;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #d1d5db;
+  }
+
+  @variants responsive {
+    /* Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      /* IE and Edge */
+      scrollbar-width: none;
+      /* Firefox */
+    }
+  }
+
+  .hide {
+    display: none !important;
+  }
+}

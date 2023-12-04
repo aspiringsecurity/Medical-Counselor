@@ -1,0 +1,33 @@
+name: PR Validation
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  pr-build:
+    strategy:
+      matrix:
+        service: [ "pearbnb", "pocketride"]
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v1
+
+      - name: Log in to Azure Container Registry
+        uses: azure/docker-login@v1
+        with:
+          login-server: ${{ secrets.ACR_LOGIN_URL }}
+          username: ${{ secrets.ACR_USERNAME }}
+          password: ${{ secrets.ACR_PASSWORD }}
+
+      - name: Build Docker image
+        run: |
+          docker build -t ${{ matrix.service }}:latest -f ./${{ matrix.service }}/Dockerfile .
+
+      # TODO - Run any dotnet tests here
+      # TODO - Set up Pulumi preview as well

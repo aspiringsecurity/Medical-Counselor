@@ -1,0 +1,24 @@
+config:
+  github:owner: trinsic-id
+  github:token:
+    secure: AAABADBNEoeazwtL1E1c0j+f2Sq4MBIu5qSc9/7PyG9aKwnHi8iH0zBoFY1FOwLyBcgg2Iqm/Or2MyZwsUFhpAxTJEwZY8km
+  pearbnb:appImageName1: pearbnb
+  pearbnb:appImageName2: pocketride
+  pearbnb:appName1: pearbnb
+  pearbnb:appName2: pocketride
+  pearbnb:appName3: okeydoke
+  pearbnb:appServicePlanName: pearbnb-plan
+  pearbnb:containerRegistryName: ConnectDemoContainerRegistry
+  pearbnb:githubOrganization: trinsic-id
+  pearbnb:githubRepository: connect
+  pearbnb:location: EastUS2
+  pearbnb:pearbnbAuthToken:
+    secure: AAABADpHpgheprU8YCvAE2mKw0w9jwt3OdCmTU4UmQ1srmYuVkdyEIWF/as376Bv34H1WVVl272EWg8ql1u6xkws8sBICVjjb412rtaLZHWsYliKsBgPApBD9lwxwp/zdQri8mjgeXjJxme1OHncSY1qlBxivIJ29afQf6gzD/3nWiyhCk32WWDnZHdPy05iXm47WN6e3yp5cMEKAMRib+MK3dQ6vuvNSUoAxnatj6IRgeXiyK0rpfZe9qKnnF3V5siFJKb3UELsy36MKI88tKpha3tKYK0dkucs+fj8TQi6uplOq3nn9YVBNKMAeTfI3AQ5ZIHIc3ET78fMKvSqxw==
+  pearbnb:pocketridesAuthToken:
+    secure: AAABAJ4E3YSioroTtdRdyCGbPENTQfAA4xTxHmos8CF4VjvMNhoPNJjhZPieKIrRnJIqjep2jK7izqPnriZNc5+sbEreWZKO0xFb9WWv4VVKf9dJL/DpPGthKMZEuWsnjRpJ7ei6JgjOnZIcvNx/zbwTm+3W5sOXpYdRabDTwy3Mu/o8Xz87H0+XuQX4XHAz6hjXNdiwhFuYn9jIB+89q/slbpydLT+bB6c9fK/XbbNFBcUS4epbJdUtg7yCOd6XvuAjjW7EtA2Ash4tEWE2qhTWfUj7rkdtCYXkpQSu52FN6vsXij8jG3X/3TmpHmHT+IQoAK53aW06jmis1v2OnA==
+  pearbnb:resourceGroupName: connect-demo
+  pearbnb:subscriptionId: 7a5e3409-cef5-42ff-b39a-92d9cc4e5489
+  pearbnb:tenantId: 8791cec4-603c-424d-8aeb-702051833161
+  pearbnb:trinsicEndpoint:
+    secure: AAABAFZs6jnqMlUxn2wl7tXPP+5duyatD7xSNm/tkjgaw3EHe4uDdX2zMUWj+DFTF58=
+  pulumi:template: azure-csharp
