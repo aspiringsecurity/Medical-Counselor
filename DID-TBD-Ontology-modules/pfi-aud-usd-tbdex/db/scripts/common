@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# This script contains variables used in all of the other scripts in this directory
+
+# neckbeard bash used to get the value of _this_ directory.
+THIS_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+
+# variables with defaults. these are overridden by our deployment infra in staging and prod
+: ${DP_SEC_DB_USER:="postgres"}
+: ${DP_SEC_DB_PASSWORD:="tbd"}
+: ${DP_SEC_DB_HOST:="localhost"}
+: ${DP_SEC_DB_PORT:="5432"}
+: ${DP_SEC_DB_NAME:="mockpfi"}
+
+# these are exported because they're used by child processes (e.g. dbmate)
+export DATABASE_URL=postgres://$DP_SEC_DB_USER:$DP_SEC_DB_PASSWORD@$DP_SEC_DB_HOST:$DP_SEC_DB_PORT/$DP_SEC_DB_NAME?sslmode=disable
+export DBMATE_MIGRATIONS_DIR=$THIS_DIR/../migrations
+
+# colors that can be used in bash scripts when echoing
+YELLOW='\033[33m'
+RESET='\033[0m'
