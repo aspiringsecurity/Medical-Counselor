@@ -55,3 +55,44 @@ Creation and management of Offers.
 Our decentralized chat application enables medical counselling in a privacy preserved chat like interface (please visit https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG )
 
 
+# Details
+
+Polkadot - Polkadot Analytics and Visualization Tool: https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Medical-Radiology-Data-transparency/dot-analytics%20tooling Please visit demo at https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG
+
+Ink NFT viewer for viewing the NFTs of NFC tags of medical devices and medical service personnel: We are extending the Ink NFT viewer dapp for viewing the NFTs generated for the NFC tags of medical devices and service repair personnel. Please visit https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Medical-Radiology-Data-transparency/ink-nft-viewer 
+
+Demo link: https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG
+
+AlphZero based Wallet to interact with the Polkadot/Substrate based blockchains through a browser. It allows users to access their Polkadot/Kusama ecosystem account(s), which can also be used to interact with decentralized apps.
+
+Features:
+
+Account creation;
+
+Security and asset management;
+
+Creation and management of Escrows, with support for conditions;
+
+Creation and management of Checks;
+
+Creation and management of Offers;
+
+AZero.ID: Identity management, ability to extend the solution using AZero.ID and and reducing misinformation at the time of diagnostics and analysis and reporting are the key reasons for using AZero.ID.   Automated Workflow for decentralized voting for service providers and DAOs using AZero.ID:
+
+DAOs create a RFP for providing service or maintenance on the dapp.
+Doctor can join a RFP by minting an NFT of that RFP. This NFT is created using Ink.
+Doctors that have a certain RFP's NFT are eligible to create proposals and vote on them.
+Voting is gasless and the vote is stored on Polkadot with the most recent vote linking to one before using AZero.ID. 
+
+Dapp suite and Subsocial Plugins: Medical Invoice, Medical Suite and Dose Schedule, Medication Log: please visit https://github.com/aspiringsecurity/Medical-Counselor/tree/main/dapp_suite Please visit demo at https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG
+
+WASM smart contract for decentralized Medical Counseling: We are developing smart contracts in wasm ink for decentralized Medical Counseling, deploying on Shibuya, extending UI interaction with astar.js. Please visit https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Medical-Radiology-Data-transparency/wasm-medical-dao Demo available at https://drive.google.com/drive/u/3/folders/12XyhbqvGHfTZPl_zbc9fO_rJUNvmIQHG
+
+Experiments with pallet assets chain extension: https://github.com/aspiringsecurity/Medical-Counselor/tree/main/Medical-Radiology-Data-transparency/pallet-assets-chain-extension
+
+
+
+
+
+
+
