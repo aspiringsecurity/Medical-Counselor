@@ -1,0 +1,300 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "int256",
+						"name": "current",
+						"type": "int256"
+					},
+					{
+						"indexed": true,
+						"internalType": "uint256",
+						"name": "roundId",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "updatedAt",
+						"type": "uint256"
+					}
+				],
+				"name": "AnswerUpdated",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "uint256",
+						"name": "roundId",
+						"type": "uint256"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "startedBy",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "startedAt",
+						"type": "uint256"
+					}
+				],
+				"name": "NewRound",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "decimals",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "description",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "roundId",
+						"type": "uint256"
+					}
+				],
+				"name": "getAnswer",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint80",
+						"name": "_roundId",
+						"type": "uint80"
+					}
+				],
+				"name": "getRoundData",
+				"outputs": [
+					{
+						"internalType": "uint80",
+						"name": "roundId",
+						"type": "uint80"
+					},
+					{
+						"internalType": "int256",
+						"name": "answer",
+						"type": "int256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "startedAt",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "updatedAt",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint80",
+						"name": "answeredInRound",
+						"type": "uint80"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "roundId",
+						"type": "uint256"
+					}
+				],
+				"name": "getTimestamp",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "latestAnswer",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "latestRound",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "latestRoundData",
+				"outputs": [
+					{
+						"internalType": "uint80",
+						"name": "roundId",
+						"type": "uint80"
+					},
+					{
+						"internalType": "int256",
+						"name": "answer",
+						"type": "int256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "startedAt",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "updatedAt",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint80",
+						"name": "answeredInRound",
+						"type": "uint80"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "latestTimestamp",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "version",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/interfaces/chainlink/AggregatorV2V3Interface.sol": "AggregatorV2V3Interface"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/interfaces/chainlink/AggregatorInterface.sol": {
+			"keccak256": "0x07df46c7e559cd8874db85a773db1bfaddd65e8bb39c84d19af8b493c2551745",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ec9051e4d8f44367b96eefb26c81f8b674711c1da8e8819ee465d3092a5e8224",
+				"dweb:/ipfs/QmRGVj4piFE6KCSAD7hmxx6esrQ43cDtnjGHfzxC7tTtHy"
+			]
+		},
+		"contracts/interfaces/chainlink/AggregatorV2V3Interface.sol": {
+			"keccak256": "0x42567551d4d30e82b81eb5d587bf629020b6f1018bb03973112c7be462f455f7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2f21a2c3534e7d2b94b1957f20fee699d06ae044fd21edf005c2901f0c6d1489",
+				"dweb:/ipfs/QmThzDs9S4XxHBpoUjhump69q2bn14DhnSZ8EtbDRyYws7"
+			]
+		},
+		"contracts/interfaces/chainlink/AggregatorV3Interface.sol": {
+			"keccak256": "0x4f2af8d943549f8df602bc0dd6c449fee5796203a347abc19ef1ecd720313ce9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2876a5cf81e74e924ac4742adc9a80707b611772ad583e476bb0e711d7b5f4c5",
+				"dweb:/ipfs/QmT1awYQpsKaCgXJEMMhKHg9ALk7jFPvTW82M8L3o1Xpqj"
+			]
+		}
+	},
+	"version": 1
+}
