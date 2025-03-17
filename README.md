@@ -1,6 +1,6 @@
 # zk Medical DAO
 
-Medical Counselor for Preventive Treatment, Remediation. Health and nutrition counseling and prevention from hospital acquired infections, preventive treatment and remediation over the AStar Network using Ink Smart Contracts and Acurast low code/no code DAO tool.
+Medical Counselor for Preventive Treatment & Remediation. Health and nutrition counseling and prevention from hospital acquired infections, preventive treatment and remediation over the AStar Network using Ink Smart Contracts and Acurast low code/no code DAO tool.
 
 Just in Time Service: Availability of pharma companies medicine records across different stakeholder through secure Web3 eco-system tools.
 
